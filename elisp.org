@@ -8,6 +8,9 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 
 * Factorial Code
 ** Code
+   :LOGBOOK:
+   CLOCK: [2018-05-09 Wed 11:28]
+   :END:
 #+BEGIN_SRC emacs-lisp
 (+ 2 3 4)
 
@@ -37,6 +40,13 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 ** Code
 #+BEGIN_SRC emacs-lisp
 
+; here are some ideas, we can change this if we want to. 
+  ; you can make a sequence with a definition of n!. 
+  (mapcar 'factorial [1 2 3 4 5 6 7])
+; In a map of authors and the books they wrote, you can call car on all of the elements to see all of the authors in your map.
+   (mapcar 'car '(("Jules Verne" "20,000 leagues under the sea" "Around the world in 80 days") ("H G Wells" "Wheels of Chance" "War of the Worlds" "The Time Machine")))
+  ; In the same way, you can get all of the members from a list of employees.
+   (mapcar 'car '(("John" "20" "male" "100,000") ("Joe" "30" "male" "80,000") ("Mary" "25" "female" "95,000")))
 #+END_SRC
 * Loop function
 ** Code
