@@ -10,6 +10,25 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 ** Code
 #+BEGIN_SRC emacs-lisp
 (+ 2 3 4)
+
+    (defun factorial (x)
+     ; set an iterator equal to the given number    
+         (progn (setq i x)  
+     ; create a while loop that stops when iterator is equal to 1. Notice the while loop is never executed when x is 0.
+         (while (> i 1)      
+       ; decrease the iterator by 1
+            (setq i (- i 1))  
+         ; multiply the answer to the decrementing number
+            (setq x (* i x)))
+        ;exit the while loop and return the value of x. Returns 0 when x is 0. 
+            (setq x x)))
+
+   (factorial 5)
+   (factorial 0)
+   (factorial 3)
+   (factorial 4) 
+       
+
 #+END_SRC
 ** Test cases
 ** How big a number will make your computer freeze?
