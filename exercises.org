@@ -173,7 +173,7 @@
   
 *** Your answer goes here.
 ** TODO TGE
-  Note the difference if -13 is used instead of 13 below:
+   Note the difference if -13 is used instead of 13 below:
 #+BEGIN_SRC emacs-lisp :results silent
   (defun compute-floor-the-hard-way (dividend divisor)
     (- (/ dividend (float divisor)) (/ (mod dividend divisor) (float divisor))))
@@ -192,7 +192,7 @@
   
 *** Your answer goes here.
 ** TODO THP
-  Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
+   Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
   
 *** Your answer goes here.
@@ -277,7 +277,10 @@
   10. =[2 3 5 7 11 13 17 19 23 29 ...]=
         This is the sequence of prime numbers. 
 #+end_info
-** TODO WQW
+** DONE WQW
+   :LOGBOOK:
+   CLOCK: [2018-05-10 Thu 10:13]--[2018-05-10 Thu 10:15] =>  0:02
+   :END:
   Classify the following lisp functions according as each is or is not a predicate:
   | Predicate? | Yes or No? |
   |------------+------------|
@@ -292,3 +295,14 @@
   | =oddp=     |            |
 
 ***  Your answer goes here. (Replicate the above table.)
+| Predicate? | Yes or No? |
+  |------------+------------|
+  | =list=     |    no      |
+  | =listp=    |   yes      |
+  | =integerp= |      yes   |
+  | =vector=   |    no      |
+  | =vectorp=  |    yes     |
+  | =symbolp=  |     yes    |
+  | =zerop=    |     yes    |
+  | =evenp=    |    yes     |
+  | =oddp=     |    yes     |
