@@ -79,7 +79,10 @@
    ; Ponder:  Binds 1 to a, 2 to b, 3 to c, and four more than a to d. Returns the addition
   ;    of all four variables. 
 #+END_SRC
-** TODO TEJ
+** DONE TEJ
+   :LOGBOOK:
+   CLOCK: [2018-05-10 Thu 12:17]--[2018-05-10 Thu 12:27] =>  0:10
+   :END:
   A function-as-association between elements of a domain and elements of a
   codomain, for \ldquo{}small\rdquo domains and codomains, inspired so-called \ldquo{}association
   lists\rdquo (or alists) and the =assoc= (and associated) functions.
@@ -114,6 +117,22 @@
   There are several variations of =assoc=. Find and give examples of using them.
 
 *** Your answer goes here.
+      #+BEGIN_SRC elisp :results silent 
+  ; rassoc searches for the key when given a value.
+  (rassoc 'French '((Italy . Italian) (France . French) (Germany . German)))
+  
+    ; create hash map.
+  (setq time (make-hash-table))
+  ; fill the hash with key value pair elements
+  (setf (gethash 'noon time) '12)
+  (setf (gethash 'evening time) '7-11)
+  (setf (gethash 'morning time) '6)
+  
+ ; return the value by passing the key
+  (gethash 'noon time)
+  (gethash 'morning time)  
+ 
+#+END_SRC
 ** TODO WFK
   In the function-as-map context, here is another interpretation:
 
