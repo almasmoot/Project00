@@ -18,22 +18,47 @@ with only 2 weights!
   and the sum of the rest of the digits is 16? Write elisp code with and without
   loops to verify your answer.
 *** Rephrase
+    Using lisp, discover how many numbers between one and one million contain the digit 1 only
+    one time and have the sum of the other digits be equal to 16. This should be done in two different
+    methods, one with loops and one without loops.
 *** Approach
 *** Solution
 *** Proof
+
 ** TODO TME
   Sequences can be non-numeric as well. What is the pattern for this sequence?
 : [m b w y me be wi yo met bew ith you meta bewi thyo uati metap bewit hyoua tirel]
   How long can it continue?
 *** Rephrase
+    Figure out the pattern shown in the given sequence and how long it can continue.
 *** Approach
+    Just from looking at the given secttion of the pattern, it becomes clear that it begins with the title of Metaphors Be With You.
+    I will look through the book more clearly, examining how it compares to the pattern to see how it will continue.
 *** Solution
+    The pattern is done in segments of four. Beginning with M B W Y. These are the first four letters of the first four words in
+    Metaphors Be With You. Each iteration of the pattern includes the next letter in each word, and when a word is completed, letters
+    are shifted from the next words in the sequence to make sure that each item in the sequence has n characters, where n is the iteration
+    of the sequence we are on. When a word at the end of the four sections in each segment is completed, the first letter from the next
+    word in the book is appended on at the end of the last section.
+
+    
 *** Proof
+    [m]etaphors [b]e [w]ith [y]ou
+    [me]taphors [be] [wi]th [yo]u
+    [met]aphors [bew] [ith] [you]
+
+    [meta]phors [bewi] [thyo] [uati]
+    [metap]hors [bewit] [hyoua] [tirel]
+    [metaph]ors [bewith] [youati] [reless]
+    [metapho]rs [bewithy] [ouatire] [lesspla]
+    [metaphor]s [bewithyo] [uatirele] [ssplayo]
+    [metaphors] [bewithyou] [atireless] [playonwor]
 
 ** TODO WRA
   Why is the sum of the reciprocals of the powers of two scaled by which power
   equal to two?
 *** Rephrase
+    Explain why adding the reciprocals
 *** Approach
 *** Solution
 *** Proof
