@@ -72,19 +72,19 @@ sufficient condition - Means that the conclusion follows automatically when this
 necessary condition - A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could
                        be other requirements needed).
 
-~p
+~p - The negation of p.
 
-p ^ q
+p ^ q      - The Conjunction of p and q. (And gate)
 
-p V q
+p V q       - The disjunction of p and q. (Or gate)
 
-P XOR q
+P XOR q     -   Exclusive or and symetric difference of p and q. p or q but not both. 
 
-p == q
+p == q       -      Logical equivalence. 
 
-p -> q
+p -> q     -      p is sufficent for q. P is a subset of q.  
 
-P <--> q
+P <--> q      -  biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value. 
 
 Three dots in a triangle
 
