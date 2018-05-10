@@ -39,23 +39,63 @@ d. Why do I care about Superman again, he's in the D.C. universe ... so dark and
 
 Contrapositive
 
+#+begin_note
+  Exchanging the hypothesis and conclusion of a conditional statement and negating both.
+#+end_note
+
 Converse
+
+#+begin_note
+  Exchanging the hypothesis and conclusion of a conditional statement.
+#+end_note
 
 inverse
 
+#+begin_note
+  The negation of both the hypothesis and conclusion of a conditional statement.
+#+end_note
+
 R: real numbers
+
+#+begin_note
+
+#+end_note
 
 Z: integers
 
+#+begin_note
+
+#+end_note
+
 Q: rational numbers
+
+#+begin_note
+
+#+end_note
 
 predicate
 
+#+begin_note
+
+#+end_note
+
 Domain
+
+#+begin_note
+
+#+end_note
 
 CoDomain
 
+#+begin_note
+
+#+end_note
+
 quantifier
+
+#+begin_note
+
+#+end_note
 
 antecedent
 
@@ -144,7 +184,8 @@ biconditional: p if and only if q. P is sufficient for q; and vice versa. True w
 Three dots in a triangle
 
 #+begin_note
-
+  A symbol to denote "therefore" at the end of a mathmatical proof.
+  eg. The book of Mormon is the word of God \therefore Joesph Smith is a prophet of God.
 #+end_note
 
 upside down A
@@ -224,7 +265,7 @@ universal bound laws
 De morgan's laws
 
 #+begin_note
-
+  A set of transformation rules that apply to boolean logic.
 #+end_note
 
 absoption laws
@@ -242,7 +283,7 @@ negations of t and c
 vacuously true
 
 #+begin_note
-
+  
 #+end_note
 
 Modus Ponens
@@ -279,4 +320,6 @@ Transitivity: Valid Argument form
     q \rightarrow r
   \therefore p \rightarrow r 
   
+  
+
 #+end_note
