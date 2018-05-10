@@ -57,74 +57,219 @@ CoDomain
 
 quantifier
 
-antecedent - The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
+antecedent
 
-consequent - The second half of a proposition, whenever it's the then-clause.
+#+begin_note
+  The first half of a hpothetical proposition, whenever the if-clause comes before the then-clause.
+#+end_note
 
-Set  - A collection of objects in which objects are seperate entities. 
+consequent
 
-Fallacy  -  An argument that is not valid (the premises are not true). 
+#+begin_note
+  The second half of a proposition, whenever it's the then-clause.
+#+end_note
 
-biconditional - a relationship between two propositions that is true only when both propositions are simultaneously true or false. 
+Set
 
-sufficient condition - Means that the conclusion follows automatically when this condition is met.
+#+begin_note
+  A collection of objects in which objects are seperate entities.
+#+end_note
 
-necessary condition - A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could
-                       be other requirements needed).
+Fallacy
 
-~p - The negation of p.
+#+begin_note
+  An argument that is not valid (the premises are not true)
+#+end_note
 
-p ^ q      - The Conjunction of p and q. (And gate)
+biconditional
 
-p V q       - The disjunction of p and q. (Or gate)
+#+begin_note
+  a relationship between two propositions that is true only when both propositions are simultaneously true or false 
+#+end_note
 
-P XOR q     -   Exclusive or and symetric difference of p and q. p or q but not both. 
+sufficient condition
 
-p == q       -      Logical equivalence. 
+#+begin_note
+  Means that the conclusion follows automatically when this condition is met. 
+#+end_note
 
-p -> q     -      p is sufficent for q. P is a subset of q.  
+necessary condition
 
-P <--> q      -  biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value. 
+#+begin_note
+  A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
+#+end_note
+
+~p
+
+#+begin_note
+  The negation of p.
+#+end_note
+
+p ^ q
+
+#+begin_note
+  The conjunction of p and q. (AND gate)
+#+end_note
+
+p V q
+
+#+begin_note
+  The disjunction of p and q. (Or gate)
+#+end_note
+
+P XOR q
+
+#+begin_note
+Exclusive or and symetric difference of p and q. p or q but not both.
+#+end_note
+
+p == q
+
+#+begin_note
+Logical equivalence.
+#+end_note
+
+p -> q
+
+#+begin_note
+p is sufficent for q. P is a subset of q.
+#+end_note
+
+P <--> q
+
+#+begin_note
+biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value.
+#+end_note
 
 Three dots in a triangle
 
-upside down A   -  Universal quantification. The predication of a property for every member in a domain. Interpreted as: "Given any..."
-                  of "For all..."
+#+begin_note
 
-Backwards E  - Existential quantification. Says "There exists.." or "There's at least one."
+#+end_note
 
-union - Is the set with all the members from two or more sets.
+upside down A
 
-intersection - Is the set with members in common from two or more sets.
+#+begin_note
+Universal quantification. The predication of a property for every member in a domain. Interpreted as: “Given any…” of “For all…”
+#+end_note
+
+Backwards E
+
+#+begin_note
+Existential quantification. Says “There exists..” or “There’s at least one.”
+
+
+#+end_note
+
+union
+
+#+begin_note
+ Is the set with all the members from two or more sets.
+#+end_note
+
+intersection
+
+#+begin_note
+Is the set with members in common from two or more sets.
+#+end_note
 
 Commutative laws
 
+#+begin_note
+
+#+end_note
+
 associative laws
+
+#+begin_note
+
+#+end_note
 
 distributive laws
 
+#+begin_note
+
+#+end_note
+
 identy laws
+
+#+begin_note
+
+#+end_note
 
 negation laws
 
+#+begin_note
+
+#+end_note
+
 double negative law
+
+#+begin_note
+
+#+end_note
 
 idempotent laws
 
+#+begin_note
+
+#+end_note
+
 universal bound laws
+
+#+begin_note
+
+#+end_note
 
 De morgan's laws
 
+#+begin_note
+
+#+end_note
+
 absoption laws
+
+#+begin_note
+
+#+end_note
 
 negations of t and c
 
+#+begin_note
+
+#+end_note
+
 vacuously true
+
+#+begin_note
+
+#+end_note
 
 Modus Ponens
 
+#+begin_note
+  A Latin term for "mode that affirms by affirming".
+  In terms of logic; p \rightarrow q , p is t \rightarrow q
+  eg: If today is Thursday, the best students will attend discrete mathmatics.
+      Today is Thursday! Thus, the best students will attend discrete mathmatics.
+#+end_note
+
 Modus Tollens
+
+#+begin_note
+  A Latin term for "mode that denies by denying".
+  In terms of logic; p \rightarrow q , \neg q \rightarrow \neg p
+  eg: If you buy nachoes at the movies, you won't need popcorn.
+      You needed popcorn, so you didn't buy the nachoes.
+#+end_note
 
 Elimination: valid argument form
 
+#+begin_note
+
+#+end_note
+
 Transitivity: Valid Argument form
+#+begin_note
+  
+#+end_note
