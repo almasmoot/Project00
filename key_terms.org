@@ -88,9 +88,10 @@ P <--> q      -  biconditional: p if and only if q. P is sufficient for q; and v
 
 Three dots in a triangle
 
-upside down A
+upside down A   -  Universal quantification. The predication of a property for every member in a domain. Interpreted as: "Given any..."
+                  of "For all..."
 
-Backwards E
+Backwards E  - Existential quantification. Says "There exists.." or "There's at least one."
 
 union - Is the set with all the members from two or more sets.
 
