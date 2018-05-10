@@ -67,9 +67,10 @@ Fallacy  -  An argument that is not valid (the premises are not true).
 
 biconditional - a relationship between two propositions that is true only when both propositions are simultaneously true or false. 
 
-sufficient condition
+sufficient condition - Means that the conclusion follows automatically when this condition is met.
 
-necessary condition
+necessary condition - A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could
+                       be other requirements needed).
 
 ~p
 
