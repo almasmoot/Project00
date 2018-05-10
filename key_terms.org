@@ -111,7 +111,7 @@ p ^ q
   The conjunction of p and q. (AND gate)
 #+end_note
 
-p V q
+p ∨ q
 
 #+begin_note
   The disjunction of p and q. (Or gate)
@@ -266,10 +266,17 @@ Modus Tollens
 Elimination: valid argument form
 
 #+begin_note
-
+  Using the process of elimanation to show whether something is t or nil.
+  p∨q    p∨q
+  \neg p    \neg q
+  \therefore q   \therefore p
 #+end_note
 
 Transitivity: Valid Argument form
 #+begin_note
+  Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
+    p \rightarrow q
+    q \rightarrow r
+  \therefore p \rightarrow r 
   
 #+end_note
