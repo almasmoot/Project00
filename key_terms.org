@@ -57,15 +57,15 @@ CoDomain
 
 quantifier
 
-antecedent
+antecedent - The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 
-consequent
+consequent - The second half of a proposition, whenever it's the then-clause.
 
 Set  - A collection of objects in which objects are seperate entities. 
 
 Fallacy  -  An argument that is not valid (the premises are not true). 
 
-biconditional
+biconditional - a relationship between two propositions that is true only when both propositions are simultaneously true or false. 
 
 sufficient condition
 
