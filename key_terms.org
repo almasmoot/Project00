@@ -271,7 +271,7 @@ De morgan's laws
 absoption laws
 
 #+begin_note
-
+  When a variable in a proposition becomes irrevelent. Example: The set of the union of any set with the universal set is the universal set.  
 #+end_note
 
 negations of t and c
@@ -318,7 +318,7 @@ Transitivity: Valid Argument form
   Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
     p \rightarrow q
     q \rightarrow r
-  \therefore p \rightarrow r 
+  \therefore p \rightarrow r     
   
   
 
