@@ -92,9 +92,9 @@ upside down A
 
 Backwards E
 
-union
+union - Is the set with all the members from two or more sets.
 
-intersection
+intersection - Is the set with members in common from two or more sets.
 
 Commutative laws
 
