@@ -5,7 +5,10 @@
 #+STARTUP: showeverything entitiespretty
 #+SETUPFILE: ../theme-bigblow.setup
 
-** TODO WDT
+** DONE WDT
+   :LOGBOOK:
+   CLOCK: [2018-05-10 Thu 11:42]--[2018-05-10 Thu 11:45] =>  0:03
+   :END:
   PVP the result of evaluating the following (paying special attention to the
   more-than-syntactic difference between the \lsquo{}starless\rsquo{} form of =let= and the
   \lsquo{}star-suffixed\rsquo{} form):
@@ -36,6 +39,46 @@
 #+END_SRC
 
 ***  Your answer goes here.
+#+BEGIN_SRC emacs-lisp
+  ;Predict: The first argument will be assigned to (+ a b c)  
+ ;  Verify: (let ((a 1) (b 2) (c 3)) (+ a b c))  => 6
+;     Ponder: Computes the variable list: ((a 1) (b 2) (c 3)), binding all of the symbols to the definitions and the body returns 6 because 1 + 2 + 3 = 6.
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  ; Predict: Error because d has not been bounded.  
+ ; Verify: (let ((a 1) (b 2) (c 3)) (+ a b c d)) => error, d is not defined. 
+ ; Ponder: void variable d, d hasn't been defined.
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+; Predict: Creates an array of symbols.
+; Verify:  (let ((a 1) (b 2) (c 3)) [+ a b c d]) => [+ a b c d]
+; Ponder: the body returns a vector: [+ a b c d]. 
+  ;  The let returns the vector.
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+   ; Predict: Computes 10
+   ; verify:  (let ((a 1) (b 2) (c 3) (+ 4)) (+ a b c +)) => 10
+   ; Ponder: Adds a which has a value of 1, to b which has a value of 2 to c
+  ;   which has a value 3 and finally + which has a value of 4, returns 10.  
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  ; Predict: Computes to 10
+  ; Verify: (makunbound 'a)
+;  (let ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d)) => nil
+; Verify: When the makunbound function is executed on the symbol a, the following
+;    let function won't execute because a is unbound to a value (making it nil).
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+   ; Predict: 11
+   ; Verfiy:  (let* ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))  => 11
+   ; Ponder:  Binds 1 to a, 2 to b, 3 to c, and four more than a to d. Returns the addition
+  ;    of all four variables. 
+#+END_SRC
 ** TODO TEJ
   A function-as-association between elements of a domain and elements of a
   codomain, for \ldquo{}small\rdquo domains and codomains, inspired so-called \ldquo{}association
