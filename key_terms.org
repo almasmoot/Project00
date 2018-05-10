@@ -61,9 +61,9 @@ antecedent
 
 consequent
 
-Set
+Set  - A collection of objects in which objects are seperate entities. 
 
-Fallacy
+Fallacy  -  An argument that is not valid (the premises are not true). 
 
 biconditional
 
