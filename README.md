@@ -1,5 +1,6 @@
 # Project00
-Team Member Names: Darren Kersey
+Team Member Names:
+Darren Kersey .........Time:
 Steven Stolp ..........Time:
 
 Project 00
