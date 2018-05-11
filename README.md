@@ -6,6 +6,11 @@ Steven Stolp ..........Time:
 
 Alma Smoot ............Time:
 
+Austin Burke ..........Time:
+
+
+TOTAL MANHOURS.............:
+
 Project 00
 Due Monday: 6pm, email me your public GitHub repo and include all the names of the contributers.
 “Make sure it looks pretty on GitHub”  That is I can see it all and everything is visible.
