@@ -133,7 +133,10 @@
   (gethash 'morning time)  
  
 #+END_SRC
-** TODO WFK
+** DONE WFK
+   :LOGBOOK:
+   CLOCK: [2018-05-11 Fri 22:14]--[2018-05-11 Fri 22:21] =>  0:07
+   :END:
   In the function-as-map context, here is another interpretation:
 
   A \ldquo{}map\rdquo type (AKA associative array, AKA hashtable) is found in many
@@ -179,7 +182,7 @@
 
   And of course elisp:
 #+BEGIN_SRC emacs-lisp :results output
-  (let* ((mymap (make-hash-table :test 'equal)))
+  (let* ((mymap (make-hash-table)))
     (puthash "one" "red" mymap)
     (puthash "two" "blue" mymap)
     (puthash "three" "green" mymap)
@@ -198,6 +201,16 @@
   =make-hash-table= call?
   
 *** Your answer goes here.
+
+   Prediction: 
+         I predict that the hash map won't perform a test to see if the key
+      provided to find a value matches with a key in the hashmap. Therefore it will return a nil.
+   Verify:
+      I was right, all of the gethash functions returned nil when searching a value with the key
+     even when the key existed in the hash.
+   Ponder:
+     Same as my prediction since I was correct. 
+
 ** TODO TER
   This exercise explores /looping/ versus /mapping/.
 
