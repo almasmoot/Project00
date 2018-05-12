@@ -54,23 +54,44 @@ Culture: Haleyito, Burutia, Warith, Eldang, Xozix, Yersim
 Country: Quatar, Pakistan, Denmark, Romania, Haiti, Oman
 Month:
 
-1.​ The student who has been studying the Haleyito culture will publish sometime after the student who has been working in Qatar.
+1.​ The student who has been studying the Haleyito culture will publish sometime after the student 
+      who has been working in Qatar.
 2.​ The student who has been working in Pakistan will publish 1 month after Ollie.
 3.​ Michael hasn't been studying the Burutia culture.
-4.​ The person who has been studying the Warith culture will publish 1 month before the student who has been working in Denmark.
+4.​ The person who has been studying the Warith culture will publish 1 month before the student 
+      who has been working in Denmark.
 5.​ The student who has been working in Denmark will publish 2 months before Doreen.
-6.​ The student who has been studying the Eldang culture will publish 2 months before the student who has been studying the Xozix culture.
-7.​ Yvette is either the student who has been working in Qatar or the person who has been working in Romania.
-8.​ The student who has been working in Denmark will publish 4 months before the person who has been working in Haiti.
+6.​ The student who has been studying the Eldang culture will publish 2 months before the student
+      who has been studying the Xozix culture.
+7.​ Yvette is either the student who has been working in Qatar or the person who has been working
+      in Romania.
+8.​ The student who has been working in Denmark will publish 4 months before the person who has 
+      been working in Haiti.
 9.​ Floyd will publish in January.
 10.​ Floyd will publish 5 months before Sonja.
 11.​ Sonja hasn't been studying the Yersim culture.
-12.​ Of the person who has been studying the Haleyito culture and the student who has been working in Oman, one is Keith and the other is Michael.
+12.​ Of the person who has been studying the Haleyito culture and the student who has been working
+      in Oman, one is Keith and the other is Michael.
 13.​ Sonja hasn't been studying the Burutia culture.
 14.​ Michael will publish 2 months after Yvette.
-15.​ The person who has been studying the Eldang culture will publish 1 month after the student who has been studying the Warith culture. 
+15.​ The person who has been studying the Eldang culture will publish 1 month after the student 
+      who has been studying the Warith culture. 
  
 Remember as with Beast 1.0 there will be Names/Cultures/Countries not mentioned in the hints. X,Y,Z work fine. 
  
-(insert table here)
- 
+https://docs.google.com/spreadsheets/d/1LXBfjvFP8AStAlmhH5o0Qxxj6sei0Tx0MeRlbdDFdnc/edit?usp=sharing
+
+| Month     | Candidate | Culture | Country |
+
+| January   | Floyd     |         |         |
+| February  |           |         |         |
+| March     |           |         |         |
+| April     |           |         |         |
+| May       |           |         |         |
+| June      | Sonja     |         |         |
+| July      |           |         |         |
+| August    |           |         |         |
+| September |           |         |         |
+| October   |           |         |         |
+| November  |           |         |         |
+| December  |           |         |         |
