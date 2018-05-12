@@ -211,7 +211,10 @@
    Ponder:
      Same as my prediction since I was correct. 
 
-** TODO TER
+** DONE TER
+   :LOGBOOK:
+   CLOCK: [2018-05-11 Fri 22:24]--[2018-05-11 Fri 22:41] =>  0:17
+   :END:
   This exercise explores /looping/ versus /mapping/.
 
   What does the =morphify= function defined below do? Think about it, then PVP
@@ -247,6 +250,18 @@
   Explain how this version of =morphify= works.
   
 *** Your answer goes here.
+
+     Predict: 
+       I predict that the morphify function will go through each string in the quote that 
+      is passed (lst) and will iterate to each string and lowercase them. 
+    Verify:
+      (Returned all of the strings in the array of strings in lowercase.
+    Prove:
+      Turns out it applied the downcase function on each string in the list of strings.
+      It did this by accepting the downcase function as its first parameter (fun) and 
+      accepted the list of strings in the lst parameter. The for loop executed the 
+     fun function (or downcase) on each element of the list.
+        
 ** TODO TGE
    Note the difference if -13 is used instead of 13 below:
 #+BEGIN_SRC emacs-lisp :results silent
