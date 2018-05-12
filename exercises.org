@@ -262,7 +262,10 @@
       accepted the list of strings in the lst parameter. The for loop executed the 
      fun function (or downcase) on each element of the list.
         
-** TODO TGE
+** DONE TGE
+   :LOGBOOK:
+   CLOCK: [2018-05-11 Fri 22:44]--[2018-05-11 Fri 22:59] =>  0:15
+   :END:
    Note the difference if -13 is used instead of 13 below:
 #+BEGIN_SRC emacs-lisp :results silent
   (defun compute-floor-the-hard-way (dividend divisor)
@@ -281,6 +284,15 @@
   Is the hard way correct?
   
 *** Your answer goes here.
+   Predict:
+     The compute-floor-the-hard-way is incorrect becuase the floor function is
+     supposed to round up to the higher integer. The function currently subtracts the
+      modulus (the remainder) after the division which gives us the result rounded down.
+   Verify:
+    Returns (3.25 3 3.0)
+  Prove:
+     I got the floor and ceiling function mixed up in my prediction. The compute-floor-the-hard-way
+    is incorrect because it returned a float when it should have returned an integer. 
 ** TODO THP
    Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
