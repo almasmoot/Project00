@@ -293,12 +293,69 @@
   Prove:
      I got the floor and ceiling function mixed up in my prediction. The compute-floor-the-hard-way
     is incorrect because it returned a float when it should have returned an integer. 
-** TODO THP
-   Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
+** DONE THP
+   :LOGBOOK:
+   CLOCK: [2018-05-12 Sat 12:46]--[2018-05-12 Sat 13:25] =>  0:39
+   :END:
+   Graph the floor and ceiling functions f(x) = \lfloor x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
   
 *** Your answer goes here.
-** TODO WKM
+  Floor function graph:
+   \smiley == open circle
+   \blacksmile == closed circle
+   |-5  -4  -3  -2  -1   0   1   2   3   4   5   6  |
+   |                                         \blacksmile---\smiley  |5  
+   |                                                |
+   |                                     \blacksmile---\smiley      |4
+   |                                                | 
+   |                                 \blacksmile---\smiley          |3
+   |                                                |  
+   |                             \blacksmile---\smiley              |2
+   |                                                |
+   |                         \blacksmile---\smiley                  |1 
+   |                                                |
+   |                     \blacksmile---\smiley                      |0
+   |                                                |
+   |                 \blacksmile---\smiley                          |-1 
+   |                                                |
+   |             \blacksmile---\smiley                              |-2
+   |                                                |
+   |         \blacksmile---\smiley                                  |-3
+   |                                                |
+   |     \blacksmile---\smiley                                      |-4 
+   |                                                |
+   | \blacksmile---\smiley                                          |-5
+   |                                                |
+
+  Ceiling function
+
+   |-5  -4  -3  -2  -1   0   1   2   3   4   5   6  |
+   |                                         \smiley---\blacksmile  |5
+   |                                                |
+   |                                     \smiley---\blacksmile      |4
+   |                                                | 
+   |                                 \smiley---\blacksmile          |3
+   |                                                |  
+   |                             \smiley---\blacksmile              |2
+   |                                                |
+   |                         \smiley---\blacksmile                  |1
+   |                                                |
+   |                     \smiley---\blacksmile                      |0
+   |                                                |
+   |                 \smiley---\blacksmile                          |-1
+   |                                                |
+   |             \smiley---\blacksmile                              |-2
+   |                                                |
+   |         \smiley---\blacksmile                                  |-3 
+   |                                                |
+   |     \smiley---\blacksmile                                      |-4
+   |                                                |
+   | \smiley---\blacksmile                                          |-5
+   |                                                |
+   
+
+**  TODO WKM
   Which of these statements about floor and ceiling are correct, for any real
   number $x$ and any integers $n$ and $m$?
   1. $x - 1 < \lfloor{}x\rfloor \le x \le \lceil{}x\rceil < x + 1$.
