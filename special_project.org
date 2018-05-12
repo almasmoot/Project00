@@ -1,3 +1,4 @@
+
 #+TITLE: Special Projects
 #+LANGUAGE: en
 #+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t
@@ -7,3 +8,4 @@
 NOTE: You must get this approved by Brother Benning.
 
 * Special Project
+On exercises-versus-problems.org, it is talking about the differences and benefits of exercises versus problems. It descibes exercises as being more methodical and requiring less mental effort than problems even if they keep one's brain or body suited for a specific task. Along with that, it explains how problems require us to think and operate different from how we would normally. They require more thinking, work, and/or experimentation. They often require making mistakes before one obtains success whereas exercises are in one's realm of familiarity and experience allowing one to rely more on memory and practice in order to succeed. Overall, the purpose of exercises-versus-problems.org is to show how problem-solving is more challenging, productive, and growth-inducing than repeated exercises.
