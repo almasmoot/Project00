@@ -57,8 +57,7 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
     (progn
      (while (< n 1000) 
        (setq cosi (cos (/ 3.14159265359 n)))
-         (setq rad (/ r cosi))
-         (setq r rad)
+         (setq r (/ r cosi))
           (setq n (+ n 1)))
         (setq r r)))
 
