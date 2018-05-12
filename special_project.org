@@ -45,7 +45,15 @@ One morning, I observed Holmes rolling a shilling back and forth over his knuckl
  
  
 6. THE BEAST
-   2.0 Back-Story Several anthropology PhD candidates will each publish a dissertation this year about a different aboriginal culture      they've been living with and studying. Match each student to the culture they've written about and the country in which it is          located, and determine the month in which each dissertation will be published. 
+   2.0 Back-Story: Several anthropology PhD candidates will each publish a dissertation this year about a different aboriginal culture
+      they've been living with and studying. Match each student to the culture they've written about and the country in which it is
+      located, and determine the month in which each dissertation will be published. 
+
+Candidates: Ollie, Michael, Doreen, Yvette, Floyd, Sonja, Keith
+Culture: Haleyito, Burutia, Warith, Eldang, Xozix, Yersim
+Country: Quatar, Pakistan, Denmark, Romania, Haiti, Oman
+Month:
+
 1.​ The student who has been studying the Haleyito culture will publish sometime after the student who has been working in Qatar.
 2.​ The student who has been working in Pakistan will publish 1 month after Ollie.
 3.​ Michael hasn't been studying the Burutia culture.
