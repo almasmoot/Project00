@@ -54,12 +54,11 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 
    ; radius of outermost circle program
   (defun radius (r n)
-    (progn
-     (while (< n 1000) 
+       (while (< n 1000) 
        (setq cosi (cos (/ 3.14159265359 n)))
          (setq r (/ r cosi))
           (setq n (+ n 1)))
-        (setq r r)))
+        (setq r r))
 
     (radius 1 3)
 

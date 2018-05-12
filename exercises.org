@@ -406,10 +406,45 @@
      (round-to-nearest-integer 3.01)
   
     #+END_SRC
-** TODO TKG
+** DONE TKG
+   :LOGBOOK:
+   CLOCK: [2018-05-12 Sat 16:25]--[2018-05-12 Sat 17:51] =>  1:26
+   :END:
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
 ***  Your answer goes here.
+#+BEGIN_SRC emacs-lisp
+   ; getKey :  return the key when given a value and the list
+(defun getKey (value list)
+    (rassoc value list))
+
+  (defun getKey-of-key (value list1 lis2)
+       (setq value2 (getKey value list1))
+     (rassoc value2 list2))
+
+   (setq list1 '((cherrytree . "cherry") (chicken . "egg") (dating . "relationship")))
+   (getKey "cherry" list1)
+
+  (setq list2 '(("rain and sunshine" . (cherrytree . "cherry")) ("chicken farm" . (chicken. "egg")) ("Just do it" . (dating . "relationship"))))
+   (setq list3 '((5 . 25) (3. 9) (7 . 49)))
+   (getKey-of-key "cherry" list1 list2)
+
+  ; assoc-if returns the element if the function in the first parameter returns true for the car of an element in the list given in the second argument.
+  (assoc-if #'oddp list3)
+  ; assoc-if-not returns the element when the function in the first argument returns false for the first false element in the associated list in the second 
+  ; argument
+   (assoc-if-not #'evenp list3)
+  
+; acons adds an element to the associated list
+   (acons 'key 'value '((butter . bread) (p . j)))
+   (acons 'sow 'reap list1)
+   (acons 'birdhouse 'bird list1)
+   (acons '4 '16 list3)
+
+  ; rplacd replaces key (when using assoc) or the value when using rassoc) with the object in the second argument.
+   (rplacd (assoc 'chicken list1) 'feather)
+  (rplacd (rassoc 25 list3) '20)
+#+END_SRC  
 
 ** DONE WOV
    :LOGBOOK:
