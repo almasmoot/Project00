@@ -379,12 +379,33 @@
    6.    Correct
   7.       Correct
 ** TODO TIW
+   :LOGBOOK:
+   CLOCK: [2018-05-12 Sat 16:01]--[2018-05-12 Sat 16:07] =>  0:06
+   :END:
 
   Define the function \ldquo{}round to nearest integer\rdquo using the floor and ceiling
   functions, together with the \ldquo{}Iverson bracket\rdquo function. (A number whose
   fractional part is less than one-half should be rounded down, otherwise up.)
 
 ***  Your answer goes here.
+
+    #+BEGIN_SRC emacs-lisp
+     
+     (defun round-to-nearest-integer (x)
+         (if (> (mod x 1) 0)
+           (if (< (mod x 1) 0.5)
+              (floor x)
+              (ceiling x))))
+
+    ; This works for the cases below, I left the todo because I couldn't find the "Iverson bracket" function.
+          
+   (round-to-nearest-integer 12.2)
+   (round-to-nearest-integer 3.5)
+   (round-to-nearest-integer 9.45)
+   (round-to-nearest-integer 3.5)
+     (round-to-nearest-integer 3.01)
+  
+    #+END_SRC
 ** TODO TKG
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
