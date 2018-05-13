@@ -27,10 +27,22 @@ What would be the best way to describe Superman's flight
 
 
 a. He jumps and with his strength and speed is able to alter his path
-
+** Identify:
+   
+  
 
 b. He flys like a bird and flaps his wings
-
+** Identify:
+    Some might think that since superman is mistaken for a bird when he flys,
+    he flaps his "wing"s like a bird too.
+** Define:
+    This is false, superman does not flap his wings like a bird but only
+    looks like a bird from far away.
+** Example/Explanation
+  Whenever superman is in a closeup, he is seen with his arms ourstretched.
+** Non-Trivial Test question
+  His flying is not based on aerodynamics so it is unecessary for him to flap
+  his wings. 
 
 c. He levitates, he's an alien "HEELLLLLOOOO!"
 
