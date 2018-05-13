@@ -4,7 +4,7 @@ Darren Kersey .........Time: about 2 hrs
 
 Steven Stolp ..........Time:
 
-Alma Smoot ............Time:
+Alma Smoot ............Time: ≈ 4 hours
 
 Austin Burke ..........Time:
 
