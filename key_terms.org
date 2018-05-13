@@ -76,196 +76,195 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 
 
-Contrapositive
+** Contrapositive
 
   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
 
-Converse
+** Converse
 
   Exchanging the hypothesis and conclusion of a conditional statement.
 
-inverse
+** Inverse
 
   The negation of both the hypothesis and conclusion of a conditional statement.
 
-R: real numbers
+** R: real numbers
 
   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
 
-Z: integers
+** Z: integers
 
 Whole numbers (negative and positive) including zero.
 
-Q: rational numbers
+** Q: rational numbers
 
 Integers and fractions (numbers between whole numbers).
 
-predicate
+** Predicate
 
 A predicate is an expression of one or more variables defined on a domain.
 
-Domain
+** Domain
 
 The set of all possible inputs for a function.
 
-CoDomain
+** CoDomain
 
 The set of all possible outputs for a function.
 
-quantifier
+** Quantifier
 
 The logical symbol which makes an assertion about a set. (Such as the Universal 
 quantifier and the Existential quantifier.)
 
-antecedent
+** Antecedent
 
   The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 
-consequent
+** Consequent
 
   The second half of a proposition, whenever it's the then-clause.
 
-Set
+** Set
 
   A collection of objects in which objects are seperate entities.
 
-Fallacy
+** Fallacy
 
   An argument that is not valid (the premises are not true)
 
-biconditional
+** Biconditional
 
   a relationship between two propositions that is true only when both propositions are simultaneously true or false 
 
-sufficient condition
+** Sufficient Condition
 
   Means that the conclusion follows automatically when this condition is met. 
 
-necessary condition
+** Necessary Condition
 
   A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
 
-~p
+** ~p
 
   The negation of p.
 
-p ^ q
+** p ^ q
 
   The conjunction (or intersection) of p and q. (AND gate)
 
-p ∨ q
+** p ∨ q
 
   The disjunction (or union) of p and q. (Or gate)
 
-P XOR q
+** p XOR q
 
 Exclusive or and symetric difference of p and q. p or q but not both.
 
-p == q
+** p == q
 
 Logical equivalence.
 
-p -> q
+** p -> q
 
 p is sufficent for q. P is a subset of q.
 
-P <--> q
+** p <--> q
 
 biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value.
 
-Three dots in a triangle
+** Three Dots in a Triangle
 
   A symbol to denote "therefore" at the end of a mathmatical proof.
   eg. The book of Mormon is the word of God \therefore Joesph Smith is a prophet of God.
 
-upside down A
+** Upside Down A
 
 Universal quantification. The predication of a property for every member in a domain. Interpreted as: “Given any…” of “For all…”
 
-Backwards E
+** Backwards E
 
 Existential quantification. Says “There exists..” or “There’s at least one.”
 
-
-union
+** Union
 
  Is the set with all the members from two or more sets.
 
-intersection
+** Intersection
 
 Is the set with members in common from two or more sets.
 
-Commutative laws
+** Commutative Laws
 
 
 
-associative laws
+** Associative Laws
 
 
 
-distributive laws
+** Distributive Laws
 
 
 
-identy laws
+** Identity Laws
 
 
 
-negation laws
+** Negation Laws
 
 
 
-double negative law
+** Double Negative Law
 
 
 
-idempotent laws
+** Idempotent Laws
 
 
 
-universal bound laws
+** Universal Bound Laws
 
 
 
-De morgan's laws
+** De Morgan's Laws
 
   A set of transformation rules that apply to boolean logic.
 
-absoption laws
+** Absorption Laws
 
   When a variable in a proposition becomes irrevelent. Example: The set of the union of any set with the universal set is the universal set.  
 
-negations of t and c
+** Negations of t and c
 
 
 
-vacuously true
+** Vacuously True
 
   A statement that asserts that all members in the empty set have a certain
   property. 
 
-Modus Ponens
+** Modus Ponens
 
   A Latin term for "mode that affirms by affirming".
   In terms of logic; p \rightarrow q , p is t \rightarrow q
   eg: If today is Thursday, the best students will attend discrete mathmatics.
       Today is Thursday! Thus, the best students will attend discrete mathmatics.
 
-Modus Tollens
+** Modus Tollens
 
   A Latin term for "mode that denies by denying".
   In terms of logic; p \rightarrow q , \neg q \rightarrow \neg p
   eg: If you buy nachoes at the movies, you won't need popcorn.
       You needed popcorn, so you didn't buy the nachoes.
 
-Elimination: valid argument form
+** Elimination: valid argument form
 
   Using the process of elimanation to show whether something is t or nil.
   p∨q    p∨q
   \neg p    \neg q
   \therefore q   \therefore p
 
-Transitivity: Valid Argument form
+** Transitivity: Valid Argument form
 
   Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
     p \rightarrow q
