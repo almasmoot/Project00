@@ -78,289 +78,197 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 Contrapositive
 
-#+begin_note
   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
-#+end_note
 
 Converse
 
-#+begin_note
   Exchanging the hypothesis and conclusion of a conditional statement.
-#+end_note
 
 inverse
 
-#+begin_note
   The negation of both the hypothesis and conclusion of a conditional statement.
-#+end_note
 
 R: real numbers
 
-#+begin_note
   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
-#+end_note
 
 Z: integers
 
-#+begin_note
 Whole numbers (negative and positive) including zero.
-#+end_note
 
 Q: rational numbers
 
-#+begin_note
 Integers and fractions (numbers between whole numbers).
-#+end_note
 
 predicate
 
-#+begin_note
 A predicate is an expression of one or more variables defined on a domain.
-#+end_note
 
 Domain
 
-#+begin_note
 The set of all possible inputs for a function.
-#+end_note
 
 CoDomain
 
-#+begin_note
 The set of all possible outputs for a function.
-#+end_note
 
 quantifier
 
-#+begin_note
 The logical symbol which makes an assertion about a set. (Such as the Universal 
 quantifier and the Existential quantifier.)
-#+end_note
 
 antecedent
 
-#+begin_note
-  The first half of a hpothetical proposition, whenever the if-clause comes before the then-clause.
-#+end_note
+  The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 
 consequent
 
-#+begin_note
   The second half of a proposition, whenever it's the then-clause.
-#+end_note
 
 Set
 
-#+begin_note
   A collection of objects in which objects are seperate entities.
-#+end_note
 
 Fallacy
 
-#+begin_note
   An argument that is not valid (the premises are not true)
-#+end_note
 
 biconditional
 
-#+begin_note
   a relationship between two propositions that is true only when both propositions are simultaneously true or false 
-#+end_note
 
 sufficient condition
 
-#+begin_note
   Means that the conclusion follows automatically when this condition is met. 
-#+end_note
 
 necessary condition
 
-#+begin_note
   A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
-#+end_note
 
 ~p
 
-#+begin_note
   The negation of p.
-#+end_note
 
 p ^ q
 
-#+begin_note
-  The conjunction of p and q. (AND gate)
-#+end_note
+  The conjunction (or intersection) of p and q. (AND gate)
 
 p ∨ q
 
-#+begin_note
-  The disjunction of p and q. (Or gate)
-#+end_note
+  The disjunction (or union) of p and q. (Or gate)
 
 P XOR q
 
-#+begin_note
 Exclusive or and symetric difference of p and q. p or q but not both.
-#+end_note
 
 p == q
 
-#+begin_note
 Logical equivalence.
-#+end_note
 
 p -> q
 
-#+begin_note
 p is sufficent for q. P is a subset of q.
-#+end_note
 
 P <--> q
 
-#+begin_note
 biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value.
-#+end_note
 
 Three dots in a triangle
 
-#+begin_note
   A symbol to denote "therefore" at the end of a mathmatical proof.
   eg. The book of Mormon is the word of God \therefore Joesph Smith is a prophet of God.
-#+end_note
 
 upside down A
 
-#+begin_note
 Universal quantification. The predication of a property for every member in a domain. Interpreted as: “Given any…” of “For all…”
-#+end_note
 
 Backwards E
 
-#+begin_note
 Existential quantification. Says “There exists..” or “There’s at least one.”
 
 
-#+end_note
-
 union
 
-#+begin_note
  Is the set with all the members from two or more sets.
-#+end_note
 
 intersection
 
-#+begin_note
 Is the set with members in common from two or more sets.
-#+end_note
 
 Commutative laws
 
-#+begin_note
 
-#+end_note
 
 associative laws
 
-#+begin_note
 
-#+end_note
 
 distributive laws
 
-#+begin_note
 
-#+end_note
 
 identy laws
 
-#+begin_note
 
-#+end_note
 
 negation laws
 
-#+begin_note
 
-#+end_note
 
 double negative law
 
-#+begin_note
 
-#+end_note
 
 idempotent laws
 
-#+begin_note
 
-#+end_note
 
 universal bound laws
 
-#+begin_note
 
-#+end_note
 
 De morgan's laws
 
-#+begin_note
   A set of transformation rules that apply to boolean logic.
-#+end_note
 
 absoption laws
 
-#+begin_note
   When a variable in a proposition becomes irrevelent. Example: The set of the union of any set with the universal set is the universal set.  
-#+end_note
 
 negations of t and c
 
-#+begin_note
 
-#+end_note
 
 vacuously true
 
-#+begin_note
   A statement that asserts that all members in the empty set have a certain
   property. 
-#+end_note
 
 Modus Ponens
 
-#+begin_note
   A Latin term for "mode that affirms by affirming".
   In terms of logic; p \rightarrow q , p is t \rightarrow q
   eg: If today is Thursday, the best students will attend discrete mathmatics.
       Today is Thursday! Thus, the best students will attend discrete mathmatics.
-#+end_note
 
 Modus Tollens
 
-#+begin_note
   A Latin term for "mode that denies by denying".
   In terms of logic; p \rightarrow q , \neg q \rightarrow \neg p
   eg: If you buy nachoes at the movies, you won't need popcorn.
       You needed popcorn, so you didn't buy the nachoes.
-#+end_note
 
 Elimination: valid argument form
 
-#+begin_note
   Using the process of elimanation to show whether something is t or nil.
   p∨q    p∨q
   \neg p    \neg q
   \therefore q   \therefore p
-#+end_note
 
 Transitivity: Valid Argument form
-#+begin_note
+
   Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
     p \rightarrow q
     q \rightarrow r
   \therefore p \rightarrow r     
-  
-  
 
-#+end_note
