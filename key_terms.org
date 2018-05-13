@@ -76,198 +76,364 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 
 
-** Contrapositive
-
+* Contrapositive
+** Define
   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
+** Example
 
-** Converse
+** Non-Trivial Test Question
 
+* Converse
+** Define
   Exchanging the hypothesis and conclusion of a conditional statement.
+** Example
 
-** Inverse
+** Non-Trivial Test Question
 
+* Inverse
+** Define
   The negation of both the hypothesis and conclusion of a conditional statement.
+** Example
 
-** R: real numbers
+** Non-Trivial Test Question
 
+* R: real numbers
+** Define
   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
+** Example
 
-** Z: integers
+** Non-Trivial Test Question
 
+* Z: integers
+** Define
 Whole numbers (negative and positive) including zero.
+** Example
 
-** Q: rational numbers
+** Non-Trivial Test Question
 
+* Q: rational numbers
+** Define
 Integers and fractions (numbers between whole numbers).
+** Example
 
-** Predicate
+** Non-Trivial Test Question
 
+* Predicate
+** Define
 A predicate is an expression of one or more variables defined on a domain.
+** Example
 
-** Domain
+** Non-Trivial Test Question
 
+* Domain
+** Define
 The set of all possible inputs for a function.
+** Example
 
-** CoDomain
+** Non-Trivial Test Question
 
+* CoDomain
+** Define
 The set of all possible outputs for a function.
+** Example
 
-** Quantifier
+** Non-Trivial Test Question
 
+* Quantifier
+** Define
 The logical symbol which makes an assertion about a set. (Such as the Universal 
 quantifier and the Existential quantifier.)
+** Example
 
-** Antecedent
+** Non-Trivial Test Question
 
+* Antecedent
+** Define
   The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
+** Example
 
-** Consequent
+** Non-Trivial Test Question
 
+* Consequent
+** Define
   The second half of a proposition, whenever it's the then-clause.
+** Example
 
-** Set
+** Non-Trivial Test Question
 
+* Set
+** Define
   A collection of objects in which objects are seperate entities.
+** Example
 
-** Fallacy
+** Non-Trivial Test Question
 
+* Fallacy
+** Define
   An argument that is not valid (the premises are not true)
+** Example
 
-** Biconditional
+** Non-Trivial Test Question
 
+* Biconditional
+** Define
   a relationship between two propositions that is true only when both propositions are simultaneously true or false 
+** Example
 
-** Sufficient Condition
+** Non-Trivial Test Question
 
+* Sufficient Condition
+** Define
   Means that the conclusion follows automatically when this condition is met. 
+** Example
 
-** Necessary Condition
+** Non-Trivial Test Question
 
+* Necessary Condition
+** Define
   A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
+** Example
 
-** ~p
+** Non-Trivial Test Question
 
+* ~p
+** Define
   The negation of p.
+** Example
 
-** p ^ q
+** Non-Trivial Test Question
 
+* p ^ q
+** Define
   The conjunction (or intersection) of p and q. (AND gate)
+** Example
 
-** p ∨ q
+** Non-Trivial Test Question
 
+* p ∨ q
+** Define
   The disjunction (or union) of p and q. (Or gate)
+** Example
 
-** p XOR q
+** Non-Trivial Test Question
 
+* p XOR q
+** Define
 Exclusive or and symetric difference of p and q. p or q but not both.
+** Example
 
-** p == q
+** Non-Trivial Test Question
 
+* p == q
+** Define
 Logical equivalence.
+** Example
 
-** p -> q
+** Non-Trivial Test Question
 
+* p -> q
+** Define
 p is sufficent for q. P is a subset of q.
+** Example
 
-** p <--> q
+** Non-Trivial Test Question
 
+* p <--> q
+** Define
 biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value.
+** Example
 
-** Three Dots in a Triangle
+** Non-Trivial Test Question
 
+* Three Dots in a Triangle
+** Define
   A symbol to denote "therefore" at the end of a mathmatical proof.
-  eg. The book of Mormon is the word of God \therefore Joesph Smith is a prophet of God.
+** Example
+  The book of Mormon is the word of God ∴ Joesph Smith is a prophet of God.
 
-** Upside Down A
+** Non-Trivial Test Question
 
+* Upside Down A
+** Define
 Universal quantification. The predication of a property for every member in a domain. Interpreted as: “Given any…” of “For all…”
+** Example
 
-** Backwards E
+** Non-Trivial Test Question
 
+* Backwards E
+** Define
 Existential quantification. Says “There exists..” or “There’s at least one.”
+** Example
 
-** Union
+** Non-Trivial Test Question
 
+* Union
+** Define
  Is the set with all the members from two or more sets.
+** Example
 
-** Intersection
+** Non-Trivial Test Question
 
+* Intersection
+** Define
 Is the set with members in common from two or more sets.
+** Example
 
-** Commutative Laws
+** Non-Trivial Test Question
 
+* Commutative Laws
+** Define
+   two valid rules of replacement, allowing the transposition of propositional variables within
+   the logical expressions. 
+*** Commutativity of Conjunction
+   (P ^ Q) <=> (Q ^ P)
+*** Commutativity of Disjunction
+   (P V Q) <=> (Q V P)
+*** Commutativity of Implication (Law of Permutation)
+   (P->(Q->R)) <->(Q->(P->R))
+*** Commutativity of Equivalence (Complete Commutative Law of Equivalence)
+   (P<->Q)<->(Q<->P)
+** Example
 
+** Non-Trivial Test Question
 
-** Associative Laws
+* Associative Laws
+** Define
+ these rules allow one to move parentheses in logical expressions
+*** Associativity of Disjunction
+ ((P V Q) V R) <-> (P V (Q V R))
+*** Associativity of Conjunction
+ ((P^Q)^R) <-> (P ^ (Q ^ R))
+*** Associativity of Equivalences
+ ((P <-> Q) <-> R) <-> (P <-> (Q <-> R))
+** Example
 
+** Non-Trivial Test Question
 
+* Distributive Laws
+** Define
+expand individual occurances of certain logical connectives, within some formula, into
+separate applications of those connectives across subformulas of the given formula
+*** Distribution of Conjunction Over Conjunction
+(P ^ (Q ^ R)) <-> ((P ^ Q) ^ (P ^ R))
+*** Distribution of Conjunction Over Disjunction
+(P ^ (Q V R)) <-> ((P ^ Q) V (P ^ R))
+*** Distribution of Disjunction Over Conjunction
+(P V (Q ^ R)) <-> ((P V Q) ^ (P V R))
+*** Distribution of Disjunction Over Disjunction
+(P V (Q V R)) <-> ((P V Q) V (P V R))
+*** Distribution of Implication
+(P -> (Q -> R)) <-> ((P -> Q) -> (P -> R))
+*** Distribution of Implication Over Equivalence
+(P -> (Q <-> R)) <-> ((P -> Q) <-> (P -> R))
+*** Distribution of Disjunction Over Equivalence
+(P V (Q <-> R)) <-> ((P V Q) <-> (P V R))
+*** Double Distribution
+((P^Q)V(R^S)) <-> (((PVR)^(PVS))^((QVR)^(QVS)))
+((PVQ)^(RVS)) <-> (((P^R)V(P^S))V((Q^R)V(Q^S)))
+** Example
 
-** Distributive Laws
+** Non-Trivial Test Question
 
+* Identity Laws
+** Define
 
+** Example
 
-** Identity Laws
+** Non-Trivial Test Question
 
+* Negation Laws
+** Define
 
+** Example
 
-** Negation Laws
+** Non-Trivial Test Question
 
+* Double Negative Law
+** Define
 
+** Example
 
-** Double Negative Law
+** Non-Trivial Test Question
 
+* Idempotent Laws
+** Define
 
+** Example
 
-** Idempotent Laws
+** Non-Trivial Test Question
 
+* Universal Bound Laws
+** Define
 
+** Example
 
-** Universal Bound Laws
+** Non-Trivial Test Question
 
-
-
-** De Morgan's Laws
-
+* De Morgan's Laws
+** Define
   A set of transformation rules that apply to boolean logic.
+** Example
 
-** Absorption Laws
+** Non-Trivial Test Question
 
-  When a variable in a proposition becomes irrevelent. Example: The set of the union of any set with the universal set is the universal set.  
+* Absorption Laws
+** Define
+  When a variable in a proposition becomes irrevelent. 
+** Example
+The set of the union of any set with the universal set is the universal set.  
+** Non-Trivial Test Question
 
-** Negations of t and c
+* Negations of t and c
+** Define
 
+** Example
 
+** Non-Trivial Test Question
 
-** Vacuously True
-
+* Vacuously True
+** Define
   A statement that asserts that all members in the empty set have a certain
   property. 
+** Example
 
-** Modus Ponens
+** Non-Trivial Test Question
 
+* Modus Ponens
+** Define
   A Latin term for "mode that affirms by affirming".
   In terms of logic; p \rightarrow q , p is t \rightarrow q
-  eg: If today is Thursday, the best students will attend discrete mathmatics.
-      Today is Thursday! Thus, the best students will attend discrete mathmatics.
+** Example
+If today is Thursday, the best students will attend discrete mathmatics.
+Today is Thursday! Thus, the best students will attend discrete mathmatics.
+** Non-Trivial Test Question
 
-** Modus Tollens
-
+* Modus Tollens
+** Define
   A Latin term for "mode that denies by denying".
   In terms of logic; p \rightarrow q , \neg q \rightarrow \neg p
-  eg: If you buy nachoes at the movies, you won't need popcorn.
+** Example
+If you buy nachoes at the movies, you won't need popcorn.
       You needed popcorn, so you didn't buy the nachoes.
+** Non-Trivial Test Question
 
-** Elimination: valid argument form
-
+* Elimination: valid argument form
+** Define
   Using the process of elimanation to show whether something is t or nil.
   p∨q    p∨q
   \neg p    \neg q
   \therefore q   \therefore p
+** Example
 
-** Transitivity: Valid Argument form
+** Non-Trivial Test Question
 
+* Transitivity: Valid Argument form
+** Define
   Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
     p \rightarrow q
     q \rightarrow r
   \therefore p \rightarrow r     
+** Example
+
+** Non-Trivial Test Question
 
