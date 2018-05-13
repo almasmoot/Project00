@@ -58,43 +58,44 @@ inverse
 R: real numbers
 
 #+begin_note
-
+  Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
 #+end_note
 
 Z: integers
 
 #+begin_note
-
+Whole numbers (negative and positive) including zero.
 #+end_note
 
 Q: rational numbers
 
 #+begin_note
-
+Integers and fractions (numbers between whole numbers).
 #+end_note
 
 predicate
 
 #+begin_note
-
+A predicate is an expression of one or more variables defined on a domain.
 #+end_note
 
 Domain
 
 #+begin_note
-
+The set of all possible inputs for a function.
 #+end_note
 
 CoDomain
 
 #+begin_note
-
+The set of all possible outputs for a function.
 #+end_note
 
 quantifier
 
 #+begin_note
-
+The logical symbol which makes an assertion about a set. (Such as the Universal 
+quantifier and the Existential quantifier.)
 #+end_note
 
 antecedent
@@ -283,7 +284,8 @@ negations of t and c
 vacuously true
 
 #+begin_note
-  
+  A statement that asserts that all members in the empty set have a certain
+  property. 
 #+end_note
 
 Modus Ponens
