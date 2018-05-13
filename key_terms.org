@@ -28,8 +28,14 @@ What would be the best way to describe Superman's flight
 
 a. He jumps and with his strength and speed is able to alter his path
 ** Identify:
-   
-  
+Some people are mistaking a change in speed to also mean a change in directon.
+Even though a change in speed changes velocity, a change in velocity does not necessarily 
+   lead to a change in direction. 
+** Define   
+Speed does not change direction.
+** Example/Explanation 
+   Velocity is a combination of speed and direction. One can change speed without
+  changing direction. Similarly, direction can be altered withouta change in speed. 
 
 b. He flys like a bird and flaps his wings
 ** Identify:
@@ -45,7 +51,13 @@ b. He flys like a bird and flaps his wings
   his wings. 
 
 c. He levitates, he's an alien "HEELLLLLOOOO!"
-
+** Identify
+  Some believe that superman levitates.
+** Define
+ This must be true, superman is levitating.
+** Example/Explanation
+  Since superman's flight is not based on aerodynamics, and he's not jumping, he is levitating.
+  In one shot, superman is seen floating in the sky with Louis Lane. 
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 ** Identify 
@@ -61,6 +73,8 @@ I believe that the D.C. universe is a good place for superman to be. His bright 
 with D.C.'s dark and hostile flavor.
 Take Joseph who was sold to Potipher for example. Joseph, in prison, was in a dark and terrible place. This environment
 with all of its temptations made Joseph's riteousness and perseverance all the brighter. 
+
+
 
 Contrapositive
 
