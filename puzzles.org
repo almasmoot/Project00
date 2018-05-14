@@ -58,7 +58,23 @@ with only 2 weights!
   Why is the sum of the reciprocals of the powers of two scaled by which power
   equal to two?
 *** Rephrase
-    Explain why adding the reciprocals
+    Explain why adding the reciprocals of 2 to the n, then scaled by 2, equals 2
 *** Approach
+if we take the limit as n approaches infinity we get numbers that are closer and closer to 1 
 *** Solution
+lim n->∞ 2^-n = 1
+1/2
+3/4
+7/8
+15/16
+31/32
+...
+1 * 2 = 2
 *** Proof
+lim n->∞ 2^-n = 1
+1/2
+3/4
+7/8
+15/16
+...
+1 * 2 = 2
