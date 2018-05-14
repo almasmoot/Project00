@@ -6,7 +6,7 @@ Steven Stolp ..........Time: about 4 hrs
 
 Alma Smoot ............Time: about 4 hours
 
-Austin Burke ..........Time: 4 ish hours so far
+Austin Burke ..........Time: 10 hours so far
 
 Max Bakes              Time: 5 
 
