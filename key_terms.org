@@ -161,7 +161,7 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 * Consequent
 ** Define
-  The second half of a proposition, whenever it's the then-clause.
+   The second half of a proposition, whenever it's the then-clause.
 ** Example
    In the statement: "If it is raining, then I will need an umbrella." "I will need an umbrella" is the consequent.
    In logical notation, this is often referred to as q; as used in the p->q statement, which means if p then q.
@@ -169,108 +169,144 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 * Set
 ** Define
-  A collection of objects in which objects are seperate entities.
+   A collection of objects in which objects are seperate entities.
 ** Example
    The collection of all of the members of the disscrete math class is a set, with each object (student) being a separate entity.
 ** Non-Trivial Test Question
 
 * Fallacy
 ** Define
-  An argument that is not valid (the premises are not true)
+   An argument that is not valid (the premises are not true)
 ** Example
 
 ** Non-Trivial Test Question
 
 * Biconditional
 ** Define
-  a relationship between two propositions that is true only when both propositions are simultaneously true or false 
+   A relationship between two propositions that is true if and only if both propositions are simultaneously true or false 
 ** Example
-
+   A rectangle is a square if and only if it's sides are all the same length.
+   In logical notation, p<->q
 ** Non-Trivial Test Question
 
 * Sufficient Condition
 ** Define
-  Means that the conclusion follows automatically when this condition is met. 
+   Means that the conclusion follows automatically when this condition is met. 
 ** Example
-
+   Being able to vote is sufficient to say that someone is at least 18.
 ** Non-Trivial Test Question
 
 * Necessary Condition
 ** Define
-  A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
+   A condition that is required to for the conclusion to happen but doesn't mean that it will happen (There could be other requirements needed).
 ** Example
-
+   Being at least 18 is necessary to be able to vote.
 ** Non-Trivial Test Question
 
 * ~p
+** Identify
+   The negation symbol, applied to p
 ** Define
-  The negation of p.
+   The logical opposite of the given condition.
 ** Example
-
+   The negation of the statement "It is raining" is "It is not raining"
 ** Non-Trivial Test Question
 
 * p ^ q
+** Identify
+   The conjunction (or intersection) symbol, here applied to p and q.
 ** Define
-  The conjunction (or intersection) of p and q. (AND gate)
+   The conjunction is the set of objects that are members of both p and q and the logical
+   condition where a conclusion can be true only if both p and q are true.
 ** Example
-
+   If p is a set of fruit and q is a set of things that are yellow, 
+   p ^ q would be the set of things that are both yellow and fruit, such as bananas.
 ** Non-Trivial Test Question
 
 * p ∨ q
+** Identify
+   The disjucntion (or union) symbol, here applied to p and q.
 ** Define
-  The disjunction (or union) of p and q. (Or gate)
+   The disjunction is the set of objects that are members of either p or q and the logical
+   condition where a conclusion is true as long as either p or q is true.
 ** Example
-
+   If p is a set of fruit and q is a set of things that are yellow,
+   p V q would be the set of things that are either fruit, yellow, or both.
+   Such as apples, bananas, and corn.
 ** Non-Trivial Test Question
 
 * p XOR q
+** Identify
+   The exclusive-or or symetric difference operator, here applied to p and q.
 ** Define
-Exclusive or and symetric difference of p and q. p or q but not both.
+   The symetric difference is the set of objects that are either members of p or members of q,
+   but not members of both and the logical condition where the conlusion is true as long as either
+   p or q is true, but not both.
 ** Example
+   If p is a set of fruit and q is a set of things that are yellow,
+   p XOR q would be the set of things that are either fruit or yellow, but not both.
+   Such as Apples and Corn, but not Bananas.
 
 ** Non-Trivial Test Question
 
 * p == q
+** Identify
+   The logical equivalence operator/symbol.
 ** Define
-Logical equivalence.
+   The logical equivalence operator states that the operands are the same.
 ** Example
-
+   If p is a set of fruit, then q is the same set, with all of the same objects within it.
 ** Non-Trivial Test Question
 
 * p -> q
+** Identify
+   The implication or if/then logical connective, here applied to p and q.
 ** Define
-p is sufficent for q. P is a subset of q.
+   The implication logical connective states that if p is true then q is true, that p is sufficent for q,
+   and that p is a subset of q.
 ** Example
-
+   The statement "If it is raining, then I need an umbrella"
+   If p is the set of fruit, q can be the set of produce, which means p is a subset of q.
 ** Non-Trivial Test Question
 
 * p <--> q
+** Identify
+   The biconditional, IFF, or if-and-only-if logical connective, here applied to p and q.
 ** Define
-biconditional: p if and only if q. P is sufficient for q; and vice versa. True when p and q have the same truth value.
-** Example
-
+   The biconditional logical connective states that p is true if and only if q is true and
+   that p is both necessary and sufficient for q. 
+** Example 
 ** Non-Trivial Test Question
 
 * Three Dots in a Triangle
+** Identify
+   The Therefore or Conclusion symbol
 ** Define
-  A symbol to denote "therefore" at the end of a mathmatical proof.
+   A symbol that denotes "therefore" at the conclusion of a mathmatical proof or logical argument.
 ** Example
-  The book of Mormon is the word of God ∴ Joesph Smith is a prophet of God.
-
+   Rectangles are polygons
+   Squares are rectangles
+   ∴ Squares are polygons
 ** Non-Trivial Test Question
 
 * Upside Down A
+** Identify
+   The Universal Quantifier
 ** Define
-Universal quantification. The predication of a property for every member in a domain. Interpreted as: “Given any…” of “For all…”
+   The Universal Quantifier is given for properties of every member of a domain as in, "For all..." and "Given any..."
 ** Example
-
+   ∀ x: P(x) means that the function p(x) is true for all values of x in the domain. 
+   For all objects in the set of fruit, the sugar content value is greater than 0
 ** Non-Trivial Test Question
 
 * Backwards E
+** Identify
+   The Existential Quantifier
 ** Define
-Existential quantification. Says “There exists..” or “There’s at least one.”
+   The Existential Quantifies is given for properties that exist within a domain as in "There exists..." and "There is at least one.."
 ** Example
-
+   ∃ x: P(x) means that the function p(x) is true for at least one value of x within the domain.
+   At least one of the objects in the set of fruit is yellow.
 ** Non-Trivial Test Question
 
 * Union
