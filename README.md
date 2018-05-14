@@ -8,6 +8,7 @@ Alma Smoot ............Time: ≈ 4 hours
 
 Austin Burke ..........Time: 4 ish hours so far
 
+Max Bakes              Time: 4 
 
 TOTAL MANHOURS.............:
 
