@@ -1,16 +1,17 @@
 # Project00
 Team Member Names:
+
 Darren Kersey .........Time: about 4.5 hrs
 
 Steven Stolp ..........Time: about 4 hrs
 
-Alma Smoot ............Time: about 4 hours
+Alma Smoot ............Time: about 6 hours
 
 Austin Burke ..........Time: 10 hours so far
 
 Max Bakes              Time: 5 
 
-TOTAL MANHOURS.............: 21.5 hrs
+TOTAL MANHOURS.............: 29.5 hrs
 
 Project 00
 Due Monday: 6pm, email me your public GitHub repo and include all the names of the contributers.
