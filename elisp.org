@@ -35,6 +35,7 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 #+END_SRC
 ** Test cases
 ** How big a number will make your computer freeze?
+at 20 factorial we have wrap around so we have a negative number.
 * "Real-World" function with mapcar
 ** What is mapcar
 ** Code
