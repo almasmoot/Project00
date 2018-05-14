@@ -1,6 +1,6 @@
 # Project00
 Team Member Names:
-Darren Kersey .........Time: about 2 hrs
+Darren Kersey .........Time: about 4.5 hrs
 
 Steven Stolp ..........Time:
 
