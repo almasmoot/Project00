@@ -246,7 +246,6 @@ quantifier and the Existential quantifier.)
    If p is a set of fruit and q is a set of things that are yellow,
    p XOR q would be the set of things that are either fruit or yellow, but not both.
    Such as Apples and Corn, but not Bananas.
-
 ** Non-Trivial Test Question
 
 * p == q
@@ -276,6 +275,7 @@ quantifier and the Existential quantifier.)
    The biconditional logical connective states that p is true if and only if q is true and
    that p is both necessary and sufficient for q. 
 ** Example 
+   Squares are rectangles if and only if they have four sides of equal length.
 ** Non-Trivial Test Question
 
 * Three Dots in a Triangle
@@ -330,7 +330,8 @@ quantifier and the Existential quantifier.)
 * Commutative Laws
 ** Define
    two valid rules of replacement, allowing the transposition of propositional variables within
-   the logical expressions. 
+   the logical expressions.
+** Example 
 *** Commutativity of Conjunction
    (P ^ Q) <=> (Q ^ P)
 *** Commutativity of Disjunction
@@ -339,17 +340,15 @@ quantifier and the Existential quantifier.)
    (P->(Q->R)) <->(Q->(P->R))
 *** Commutativity of Equivalence (Complete Commutative Law of Equivalence)
    (P<->Q)<->(Q<->P)
-** Example
-
 ** Non-Trivial Test Question
 
 * Associative Laws
 ** Define
- these rules allow one to move parentheses in logical expressions
+   The assoicative laws allow for the movement of parentheses within logical expressions
 *** Associativity of Disjunction
  ((P V Q) V R) <-> (P V (Q V R))
 *** Associativity of Conjunction
- ((P^Q)^R) <-> (P ^ (Q ^ R))
+ ((P \land Q) \land R) <-> (P \land (Q \land R))
 *** Associativity of Equivalences
  ((P <-> Q) <-> R) <-> (P <-> (Q <-> R))
 ** Example
@@ -358,40 +357,40 @@ quantifier and the Existential quantifier.)
 
 * Distributive Laws
 ** Define
-expand individual occurances of certain logical connectives, within some formula, into
-separate applications of those connectives across subformulas of the given formula
-*** Distribution of Conjunction Over Conjunction
-(P ^ (Q ^ R)) <-> ((P ^ Q) ^ (P ^ R))
-*** Distribution of Conjunction Over Disjunction
-(P ^ (Q V R)) <-> ((P ^ Q) V (P ^ R))
-*** Distribution of Disjunction Over Conjunction
-(P V (Q ^ R)) <-> ((P V Q) ^ (P V R))
-*** Distribution of Disjunction Over Disjunction
-(P V (Q V R)) <-> ((P V Q) V (P V R))
-*** Distribution of Implication
-(P -> (Q -> R)) <-> ((P -> Q) -> (P -> R))
-*** Distribution of Implication Over Equivalence
-(P -> (Q <-> R)) <-> ((P -> Q) <-> (P -> R))
-*** Distribution of Disjunction Over Equivalence
-(P V (Q <-> R)) <-> ((P V Q) <-> (P V R))
-*** Double Distribution
-((P^Q)V(R^S)) <-> (((PVR)^(PVS))^((QVR)^(QVS)))
-((PVQ)^(RVS)) <-> (((P^R)V(P^S))V((Q^R)V(Q^S)))
+   The distributive laws expand individual occurances of certain logical connectives, 
+   within some formula, into separate applications of those connectives across 
+   subformulas of the given formula
 ** Example
-
+*** Distribution of Conjunction Over Conjunction
+    (P ^ (Q ^ R)) <-> ((P ^ Q) ^ (P ^ R))
+*** Distribution of Conjunction Over Disjunction
+    (P ^ (Q V R)) <-> ((P ^ Q) V (P ^ R))
+*** Distribution of Disjunction Over Conjunction
+    (P V (Q ^ R)) <-> ((P V Q) ^ (P V R))
+*** Distribution of Disjunction Over Disjunction
+    (P V (Q V R)) <-> ((P V Q) V (P V R))
+*** Distribution of Implication
+    (P -> (Q -> R)) <-> ((P -> Q) -> (P -> R))
+*** Distribution of Implication Over Equivalence
+    (P -> (Q <-> R)) <-> ((P -> Q) <-> (P -> R))
+*** Distribution of Disjunction Over Equivalence
+    (P V (Q <-> R)) <-> ((P V Q) <-> (P V R))
+*** Double Distribution
+    ((P \land Q) \lor (R \land S)) <-> (((P \lor R) \land (P \lor S)) \land ((Q \lor R) \land (Q \lor S)))
+    ((P \lor Q) \land (R \lor S)) <-> (((P \land R) \lor (P \land S)) \lor ((Q \land R) \lor (Q \land S)))   
 ** Non-Trivial Test Question
 
 * Identity Laws
 ** Define
-   There are two identity laws:
+   The identity laws are used to show that given a tautology or a contradiction and a logical
+   statement, the identiy of the statement can be confirmed through ANDing and ORing.
+** Example
 *** p \wedge  T ≡ p
     This identity law says that any logical statement, when ANDed with a tautology, will
     be identical/equivalent to the original statement. 
 *** p ∨ F ≡ p
     This identity law says that any logical statment, when ORed with a contradiction, will
     be identical/equivalent to the original statement.
-** Example
-
 ** Non-Trivial Test Question
 
 * Negation Laws
@@ -415,9 +414,9 @@ separate applications of those connectives across subformulas of the given formu
    The idempotent laws refer to idempotent (or redundant) statements. Where ANDing and ORing
    a logical statement with itself returns a result that is identical/equivalent to the 
    original statement.
+** Example
    p ∧ p ≡ p 
    p ∨ p ≡ p
-** Example
 ** Non-Trivial Test Question
 
 * Universal Bound Laws
@@ -426,7 +425,7 @@ separate applications of those connectives across subformulas of the given formu
    The union of any set with the universal set is the universal set.
 ** Example
    A \lor Universal \equiv Universal
-   A \land emptySet \equiv emptySet
+   A \land EmptySet \equiv EmptySet
 ** Non-Trivial Test Question
 
 * De Morgan's Laws
@@ -447,15 +446,20 @@ separate applications of those connectives across subformulas of the given formu
 
 * Negations of t and c
 ** Define
-   \not t \land \not c
+   The negation for the statement t \land c.
+   \not t \lor \not c
 ** Example
-
+   Given the statement t= I am rich, and c = I am happy
+   t and c states that "I am rich and I am happy". which evaluates as true only if I am both
+   rich and happy.
+   The negation of this would be "I am not rich or I am not happy", which as a valid negation,
+   evaluates to true as long as you are not both rich and happy.
 ** Non-Trivial Test Question
 
 * Vacuously True
 ** Define
-  A statement that asserts that all members in the empty set have a certain
-  property. 
+   A statement that asserts that all members in the empty set have a certain
+   property. 
 ** Example
    If our set is an empty apple box, it can truthfully be said that all of the apples in the
    box are green. 
@@ -476,11 +480,11 @@ separate applications of those connectives across subformulas of the given formu
 
 * Modus Tollens
 ** Define
-  A Latin term for "mode that denies by denying".
-  In terms of logic: 
-  p \rightarrow q  
-  \neg q
-  ∴ \neg p
+   A Latin term for "mode that denies by denying".
+   In terms of logic: 
+   p \rightarrow q  
+   \neg q
+   ∴ \neg p
 ** Example
    If you buy nachos at the movies, you won't need popcorn.
    You needed popcorn 
@@ -489,24 +493,26 @@ separate applications of those connectives across subformulas of the given formu
 
 * Elimination: valid argument form
 ** Define
-  Using the process of elimanation to show whether something is t or nil.
-  p∨q    p∨q
-  \neg p    \neg q
-  \therefore q   \therefore p
+   Using the process of elimanation to reach a conclusion.
+   p∨q
+   \neg p
+   \therefore q
 ** Example
-
+   The student is either passing or failing discrete math.
+   The student is not failing discrete math.
+   Therefore: The student is passing discrete math.
 ** Non-Trivial Test Question
 
 * Transitivity: Valid Argument form
 ** Define
-  Transitive reasoning is a valid argument form that allows us to apply the transitive property to logic.
-    p \rightarrow q
-    q \rightarrow r
-  \therefore p \rightarrow r     
+   Transitive reasoning is a valid argument form that allows us to apply the 
+   transitive property to logic.
+   p \rightarrow q
+   q \rightarrow r
+   \therefore p \rightarrow r     
 ** Example
-   
-   
-
+   Dogs are animals
+   Animals are alive
+   Dogs are alive.
 ** Non-Trivial Test Question
-   
    
