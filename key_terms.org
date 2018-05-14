@@ -80,16 +80,21 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Define
    Exchanging the hypothesis and conclusion of a conditional statement and negating both.
 ** Example
-   "If it is raining then the grass is wet"~ "If the grass is not wet then it is not raining"
-
+   The contrapositive of the statement: "If it is raining then the grass is wet" 
+   is: "If the grass is not wet then it is not raining"
 ** Non-Trivial Test Question
-   
+   What is the contrapositive of the following statement?
+   "If I get a dog, then I will be happy."
+
 * Converse
 ** Define
    Exchanging the hypothesis and conclusion of a conditional statement.
 ** Example
-   "If it is raining then the grass is wet"~ "If the grass is wet then it is raining"
+   The converse of the statement: "If it is raining then the grass is wet" 
+   is "If the grass is wet then it is raining"
 ** Non-Trivial Test Question
+   What is the converse of the following statement?
+   "If I get a dog, then I will be happy."
 
 * Inverse
 ** Define
@@ -97,6 +102,8 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Example
    "If it is raining then the grass will be wet"~ "If it is not raining then the grass will not be wet."
 ** Non-Trivial Test Question
+   What is the inverse of following statement?
+   "If I get a dog, then I will be happy."
 
 * R: real numbers
 ** Define
@@ -109,7 +116,7 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Define
    Whole numbers (negative and positive) including zero.
 ** Example
-   {...,-1,0,1,...} 
+   {... -3, -2, -1 ,0, 1, 2, 3 ...} 
 ** Non-Trivial Test Question
 
 * Q: rational numbers
@@ -128,45 +135,50 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 * Domain
 ** Define
-The set of all possible inputs for a function.
+   The set of all possible inputs for a function.
 ** Example
-   {(2,-3)(4,6)(3,-1)(6,6)(2,3)}
-   Domain: {2,3,4,6}
+   The domain of a function regarding the students of Discrete math would be the set
+   of students in discrete math.
+   The domain of {(2,-3)(4,6)(3,-1)(6,6)(2,3)} is {2,3,4,6}
 ** Non-Trivial Test Question
 
 * CoDomain
 ** Define
    The set of all possible outputs for a function.
 ** Example
-   x \rightarrow 2x+1
+   In a function regarding the grades of the students in Discrete Math, the codomain
+   would be the set of possible grades.
 ** Non-Trivial Test Question
 
 * Quantifier
 ** Define
-The logical symbol which makes an assertion about a set. (Such as the Universal 
-quantifier and the Existential quantifier.)
+   The logical symbol which makes an assertion about a set.
 ** Example
-   There exists, for all
+   The Universal Quantifier
+   The Existential Quantifier
+   There exists 
+   For all
 ** Non-Trivial Test Question
 
 * Antecedent
 ** Define
-  The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
+   The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 ** Example
-   If it rains
+   In the statement, "If it is raining, then the grass is wet." The antecedent is "If it rains"
 ** Non-Trivial Test Question
 
 * Consequent
 ** Define
    The second half of a proposition, whenever it's the then-clause.
 ** Example
-   Then it will rain
+   In the statement, "If it is raining, then the grass is wet." The consequent is "The grass is wet"
 ** Non-Trivial Test Question
 
 * Set
 ** Define
    A collection of objects in which objects are seperate entities.
 ** Example
+   The students in Discrete Math.
    A table that has a book, plate, and a pencil on it.
 ** Non-Trivial Test Question
 
@@ -177,7 +189,7 @@ quantifier and the Existential quantifier.)
 ** Example
    Penguins are black and white. 
    Citizen Kane is in black and white. 
-   Therefore; Some penguins are actually Citizen Kane. 
+   Therefore: Some penguins are actually Citizen Kane. 
 ** Non-Trivial Test Question
 
 * Biconditional
