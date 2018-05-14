@@ -35,7 +35,7 @@ Even though a change in speed changes velocity, a change in velocity does not ne
 Speed does not change direction.
 ** Example/Explanation 
    Velocity is a combination of speed and direction. One can change speed without
-  changing direction. Similarly, direction can be altered withouta change in speed. 
+  changing direction. Similarly, direction can be altered without a change in speed. 
 
 b. He flys like a bird and flaps his wings
 ** Identify:
@@ -351,23 +351,26 @@ separate applications of those connectives across subformulas of the given formu
 
 * Double Negative Law
 ** Define
-
+\not \not p \equiv p 
 ** Example
 
 ** Non-Trivial Test Question
 
 * Idempotent Laws
 ** Define
-
+    Anding a variable with 1 OR oring it with 0 will make the one, or 0, insignificant and reduces down to the other variable.
 ** Example
-
+p \land 1 \equiv p       
+p \lor 0 \equiv p
 ** Non-Trivial Test Question
 
 * Universal Bound Laws
 ** Define
-
+The intersect of any set with the empty set an the empty set.
+The union of any set with the universal set is the universal set.
 ** Example
-
+A \lor Universal \equiv Universal
+A \land emptySet \equiv emptySet
 ** Non-Trivial Test Question
 
 * De Morgan's Laws
@@ -386,7 +389,7 @@ The set of the union of any set with the universal set is the universal set.
 
 * Negations of t and c
 ** Define
-
+\not t \land \not c 
 ** Example
 
 ** Non-Trivial Test Question
