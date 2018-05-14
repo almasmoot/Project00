@@ -84,28 +84,3 @@
 
    A problem is a problem because we needed more information. When you
    balance your problem, you get more information.
-
-
-** Austin Burke:
-   My personal perspective on the differences between problems and exercises comes from
-   experience in discrete math from attempting the class once before. Solving exercises is
-   basically a form of practice to reaffirm something we already know or to apply it in a 
-   new way while still using the same principles. Problems are twofold. It is not just a 
-   search for a solution, but a search for a method o find the solution. In many of the
-   problems included in Metaphors Be With You, my first reaction is that I have no idea
-   where to start, or where to go next once I get stuck after a short period of trying. 
-   This is the point of the problem, it is, as mentioned in the Paul Zeitz synopsis, not
-   something that we are used to doing, but needs perseverence to provide an answer. 
-   Solving problems doesn't just prove that we know soemthing, it teaches us at the same time.
-   
-   ** Alma Smoot:
-   My understanding on the differences between problems and exercises based on this text comes
-   down to prior knowledge. An exercise is something where you have had the concept taught to
-   you before and it becomes practice in order to solidify a concept. A problem is where you
-   don't know initially how to approach the situation. the approach for each is different as
-   well. with exercises, you typically want to see how much you can remember and complete
-   without searching for external help. With problems, the best approach is to think and 
-   discuss with others and look for different angles at which to examine, then determine a
-   course of action, then reevaluate the approach. the cycle continues until the problem is 
-   solved. Using the approach of problems is like teaching a hungry man to fish, instead of
-   just providing him a fish to eat.
