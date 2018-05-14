@@ -80,63 +80,68 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Define
   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
 ** Example
-
+   The contrapositive of the statement: "It is raining, so I need an umbrella" is: "I do not need an umbrella, so it is not raining"
+   In logical notation this would be. ~q->~p
 ** Non-Trivial Test Question
 
 * Converse
 ** Define
   Exchanging the hypothesis and conclusion of a conditional statement.
 ** Example
-
+   The converse of the statement: "It is raining, so I need an umbrella" is: I need an umbrella, so it is raining."
+   In logical notation this would be q->p
 ** Non-Trivial Test Question
 
 * Inverse
 ** Define
   The negation of both the hypothesis and conclusion of a conditional statement.
 ** Example
-
+   The inverse of the statement: "It is raining, so I need an umbrella" is: "It is not raining, so I do not need an umbrella."
+   In logical notation this would be ~p->~q
 ** Non-Trivial Test Question
 
 * R: real numbers
 ** Define
   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
 ** Example
-
+   
 ** Non-Trivial Test Question
 
 * Z: integers
 ** Define
-Whole numbers (negative and positive) including zero.
+   Whole numbers (negative and positive) including zero.
 ** Example
-
+   {... -3, -2, -1, 0, 1, 2, 3 ...}
 ** Non-Trivial Test Question
 
 * Q: rational numbers
 ** Define
-Integers and fractions (numbers between whole numbers).
+   Integers and fractions (numbers between whole numbers).
 ** Example
 
 ** Non-Trivial Test Question
 
 * Predicate
 ** Define
-A predicate is an expression of one or more variables defined on a domain.
+   A predicate is an expression of one or more variables defined on a domain.
 ** Example
 
 ** Non-Trivial Test Question
 
 * Domain
 ** Define
-The set of all possible inputs for a function.
+   The set of all possible inputs for a function.
 ** Example
-
+   If we are exploring a function regarding the grades of the students in discrete math, the Domain would be
+   the set of the students in the class.
 ** Non-Trivial Test Question
 
 * CoDomain
 ** Define
-The set of all possible outputs for a function.
+   The set of all possible outputs for a function.
 ** Example
-
+   If we are exploring a function regarding the grades of the students in discrete math, the Codomain would be
+   the possible grades, {F, D-, D, D+, C-, C, C+, B-, B, B+, A-, A}
 ** Non-Trivial Test Question
 
 * Quantifier
@@ -144,7 +149,7 @@ The set of all possible outputs for a function.
 The logical symbol which makes an assertion about a set. (Such as the Universal 
 quantifier and the Existential quantifier.)
 ** Example
-
+   
 ** Non-Trivial Test Question
 
 * Antecedent
