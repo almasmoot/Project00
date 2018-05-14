@@ -78,50 +78,50 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 * Contrapositive
 ** Define
-  Exchanging the hypothesis and conclusion of a conditional statement and negating both.
+   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
 ** Example
    "If it is raining then the grass is wet"~ "If the grass is not wet then it is not raining"
 
 ** Non-Trivial Test Question
-
+   
 * Converse
 ** Define
-  Exchanging the hypothesis and conclusion of a conditional statement.
+   Exchanging the hypothesis and conclusion of a conditional statement.
 ** Example
    "If it is raining then the grass is wet"~ "If the grass is wet then it is raining"
 ** Non-Trivial Test Question
 
 * Inverse
 ** Define
-  The negation of both the hypothesis and conclusion of a conditional statement.
+   The negation of both the hypothesis and conclusion of a conditional statement.
 ** Example
    "If it is raining then the grass will be wet"~ "If it is not raining then the grass will not be wet."
 ** Non-Trivial Test Question
 
 * R: real numbers
 ** Define
-  Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
+   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
 ** Example
    -1 or 2 or even \pi. 
 ** Non-Trivial Test Question
 
 * Z: integers
 ** Define
-Whole numbers (negative and positive) including zero.
+   Whole numbers (negative and positive) including zero.
 ** Example
    {...,-1,0,1,...} 
 ** Non-Trivial Test Question
 
 * Q: rational numbers
 ** Define
-Integers and fractions (numbers between whole numbers).
+   Integers and fractions (numbers between whole numbers).
 ** Example
    Q = {a/b, a and b \in Z and b\ne 0}
 ** Non-Trivial Test Question
 
 * Predicate
 ** Define
-A predicate is an expression of one or more variables defined on a domain.
+   A predicate is an expression of one or more variables defined on a domain.
 ** Example
    P: X\rightarrow {t, nil}
 ** Non-Trivial Test Question
@@ -136,9 +136,8 @@ The set of all possible inputs for a function.
 
 * CoDomain
 ** Define
-The set of all possible outputs for a function.
+   The set of all possible outputs for a function.
 ** Example
-
    x \rightarrow 2x+1
 ** Non-Trivial Test Question
 
@@ -173,9 +172,12 @@ quantifier and the Existential quantifier.)
 
 * Fallacy
 ** Define
-   An argument that is not valid (the premises are not true)
+   An argument that is not valid, either due to incorrect premises, an invalid conclusion,
+   or specious reasoning.
 ** Example
-   penguins are black and white. Citizen Kane is in black and white. Therefore, some penguins are actually Citizen Kane. 
+   Penguins are black and white. 
+   Citizen Kane is in black and white. 
+   Therefore; Some penguins are actually Citizen Kane. 
 ** Non-Trivial Test Question
 
 * Biconditional
@@ -309,16 +311,20 @@ quantifier and the Existential quantifier.)
 
 * Union
 ** Define
- Is the set with all the members from two or more sets.
+   The Union is the set with all the members from two or more sets.
 ** Example
-
+   The union of p and q (p∪q) is the set of all objects that are within p or q.
+   If p is the set of fruits and q is the set of things that are yellow, p∪q is the set
+   of things that are either fruit, yellow, or both.
 ** Non-Trivial Test Question
 
 * Intersection
 ** Define
-Is the set with members in common from two or more sets.
+   The intersetion ss the set where the members are those that two or more sets have in common.
 ** Example
-
+   The intersection of p and q (p∩q) is the set of all objects that are in both p and q.
+   If p is the set of fruit and q is the set of thins that are yellow, p∩q is the set of
+   things that are both fruit and yellow.
 ** Non-Trivial Test Question
 
 * Commutative Laws
@@ -377,7 +383,13 @@ separate applications of those connectives across subformulas of the given formu
 
 * Identity Laws
 ** Define
-
+   There are two identity laws:
+*** p \wedge  T ≡ p
+    This identity law says that any logical statement, when ANDed with a tautology, will
+    be identical/equivalent to the original statement. 
+*** p ∨ F ≡ p
+    This identity law says that any logical statment, when ORed with a contradiction, will
+    be identical/equivalent to the original statement.
 ** Example
 
 ** Non-Trivial Test Question
@@ -393,7 +405,9 @@ separate applications of those connectives across subformulas of the given formu
 ** Define
    \not \not p \equiv p
 ** Example
-
+   If we take the negation of a statement. "It is raining", we get the statement, "It is not
+   raining." If we then take the negation of our new statement, we return to the original,
+   "It is raining."
 ** Non-Trivial Test Question
 
 * Idempotent Laws
