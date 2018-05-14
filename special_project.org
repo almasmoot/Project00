@@ -143,18 +143,17 @@ https://docs.google.com/spreadsheets/d/1LXBfjvFP8AStAlmhH5o0Qxxj6sei0Tx0MeRlbdDF
 
 | Month     | Candidate | Culture | Country |
 
-| January   | Floyd     |         |         |
-| February  |           |         |         |
-| March     |           |         |         |
-| April     |           |         |         |
-| May       |           |         |         |
-| June      | Sonja     |         |         |
-| July      |           |         |         |
-| August    |           |         |         |
-| September |           |         |         |
-| October   |           |         |         |
-| November  |           |         |         |
-| December  |           |         |         |
+| January   | Floyd     | X        | Romania  |
+| February  |           |          |          |
+| March     |           |          |          |
+| April     |           |          |          |
+| May       | Keith     | Warith   | Oman     |
+| June      | Sonja     | Eldang   | Denmark  |
+| July      |           |          |          |
+| August    | Doreen    | Xozix    | Y        |
+| September | Yvette    | Yersim   | Quatar   |
+| October   | Ollie     | Burutia  | Haiti    |
+| November  | Michael   | Haleyito | Pakistan |
+| December  |           |          |          |
 
-Eldang is Denmark
-Doreen is Xoxiz
+This is one possible solution
