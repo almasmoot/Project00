@@ -7,7 +7,7 @@ Steven Stolp ..........Time: about 4 hrs
 
 Alma Smoot ............Time: about 6 hours
 
-Austin Burke ..........Time: 10 hours so far
+Austin Burke ..........Time: 11 hours
 
 Max Bakes              Time: 5 
 
@@ -52,3 +52,9 @@ EXTRA CREDIT 15%
 Puzzles from 02-ponder-and-prove.org.  I WILL NOT HELP/NOR GIVE HINTS FOR THIS PART
 
 NOTE: You may work in a group or individually. Groups no more than 6.
+
+Austin Burke Project Summary:
+In the project I did some work on the extra credit problems, the BEAST 2.0 within the special project exercises,
+other sections of the special project exercises, and a lot of work on the key terms, providing definitions,t
+identifications, and examples, as well as some test questions. The key terms section was my favorite part of 
+the project as I feel it taught me a lot about the important basic knowledge required for sets and logic.
