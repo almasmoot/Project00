@@ -80,105 +80,102 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Define
   Exchanging the hypothesis and conclusion of a conditional statement and negating both.
 ** Example
-   The contrapositive of the statement: "It is raining, so I need an umbrella" is: "I do not need an umbrella, so it is not raining"
-   In logical notation this would be. ~q->~p
+   "If it is raining then the grass is wet"~ "If the grass is not wet then it is not raining"
+
 ** Non-Trivial Test Question
 
 * Converse
 ** Define
   Exchanging the hypothesis and conclusion of a conditional statement.
 ** Example
-   The converse of the statement: "It is raining, so I need an umbrella" is: I need an umbrella, so it is raining."
-   In logical notation this would be q->p
+   "If it is raining then the grass is wet"~ "If the grass is wet then it is raining"
 ** Non-Trivial Test Question
 
 * Inverse
 ** Define
   The negation of both the hypothesis and conclusion of a conditional statement.
 ** Example
-   The inverse of the statement: "It is raining, so I need an umbrella" is: "It is not raining, so I do not need an umbrella."
-   In logical notation this would be ~p->~q
+   "If it is raining then the grass will be wet"~ "If it is not raining then the grass will not be wet."
 ** Non-Trivial Test Question
 
 * R: real numbers
 ** Define
   Irrational numbers, Rational numbers, Integers, Whole and natural numbers.
 ** Example
-   
+   -1 or 2 or even \pi. 
 ** Non-Trivial Test Question
 
 * Z: integers
 ** Define
-   Whole numbers (negative and positive) including zero.
+Whole numbers (negative and positive) including zero.
 ** Example
-   {... -3, -2, -1, 0, 1, 2, 3 ...}
+   {...,-1,0,1,...} 
 ** Non-Trivial Test Question
 
 * Q: rational numbers
 ** Define
-   Integers and fractions (numbers between whole numbers).
+Integers and fractions (numbers between whole numbers).
 ** Example
-
+   Q = {a/b, a and b \in Z and b\ne 0}
 ** Non-Trivial Test Question
 
 * Predicate
 ** Define
-   A predicate is an expression of one or more variables defined on a domain.
+A predicate is an expression of one or more variables defined on a domain.
 ** Example
-
+   P: X\rightarrow {t, nil}
 ** Non-Trivial Test Question
 
 * Domain
 ** Define
-   The set of all possible inputs for a function.
+The set of all possible inputs for a function.
 ** Example
-   If we are exploring a function regarding the grades of the students in discrete math, the Domain would be
-   the set of the students in the class.
+   {(2,-3)(4,6)(3,-1)(6,6)(2,3)}
+   Domain: {2,3,4,6}
 ** Non-Trivial Test Question
 
 * CoDomain
 ** Define
-   The set of all possible outputs for a function.
+The set of all possible outputs for a function.
 ** Example
-   If we are exploring a function regarding the grades of the students in discrete math, the Codomain would be
-   the possible grades, {F, D-, D, D+, C-, C, C+, B-, B, B+, A-, A}
+
+   x \rightarrow 2x+1
 ** Non-Trivial Test Question
 
 * Quantifier
 ** Define
-   The logical symbol which makes an assertion about a set.
+The logical symbol which makes an assertion about a set. (Such as the Universal 
+quantifier and the Existential quantifier.)
 ** Example
-   Two examples of Quantifiers are the Universal Quantifier and the Existential Quantifier.
+   There exists, for all
 ** Non-Trivial Test Question
 
 * Antecedent
 ** Define
   The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 ** Example
-   In the statement: "If it is raining, then I will need an umbrella." "If it is raining" is the atecedent.
-   In logical notation, this is often referred to as p; as used in the p->q statement, which means if p then q.
+   If it rains
 ** Non-Trivial Test Question
 
 * Consequent
 ** Define
    The second half of a proposition, whenever it's the then-clause.
 ** Example
-   In the statement: "If it is raining, then I will need an umbrella." "I will need an umbrella" is the consequent.
-   In logical notation, this is often referred to as q; as used in the p->q statement, which means if p then q.
+   Then it will rain
 ** Non-Trivial Test Question
 
 * Set
 ** Define
    A collection of objects in which objects are seperate entities.
 ** Example
-   The collection of all of the members of the disscrete math class is a set, with each object (student) being a separate entity.
+   A table that has a book, plate, and a pencil on it.
 ** Non-Trivial Test Question
 
 * Fallacy
 ** Define
    An argument that is not valid (the premises are not true)
 ** Example
-
+   penguins are black and white. Citizen Kane is in black and white. Therefore, some penguins are actually Citizen Kane. 
 ** Non-Trivial Test Question
 
 * Biconditional
@@ -187,6 +184,7 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 ** Example
    A rectangle is a square if and only if it's sides are all the same length.
    In logical notation, p<->q
+   An angle is right iff it measures 90\deg.
 ** Non-Trivial Test Question
 
 * Sufficient Condition
@@ -393,26 +391,26 @@ separate applications of those connectives across subformulas of the given formu
 
 * Double Negative Law
 ** Define
-\not \not p \equiv p 
+   \not \not p \equiv p
 ** Example
 
 ** Non-Trivial Test Question
 
 * Idempotent Laws
 ** Define
-    Anding a variable with 1 OR oring it with 0 will make the one, or 0, insignificant and reduces down to the other variable.
+   Anding a variable with 1 OR oring it with 0 will make the one, or 0, insignificant and reduces down to the other variable.
 ** Example
-p \land 1 \equiv p       
-p \lor 0 \equiv p
+   p \land 1 \equiv p
+   p \lor 0 \equiv p
 ** Non-Trivial Test Question
 
 * Universal Bound Laws
 ** Define
-The intersect of any set with the empty set an the empty set.
-The union of any set with the universal set is the universal set.
+   The intersect of any set with the empty set an the empty set.
+   The union of any set with the universal set is the universal set.
 ** Example
-A \lor Universal \equiv Universal
-A \land emptySet \equiv emptySet
+   A \lor Universal \equiv Universal
+   A \land emptySet \equiv emptySet
 ** Non-Trivial Test Question
 
 * De Morgan's Laws
@@ -431,7 +429,7 @@ The set of the union of any set with the universal set is the universal set.
 
 * Negations of t and c
 ** Define
-\not t \land \not c 
+   \not t \land \not c
 ** Example
 
 ** Non-Trivial Test Question
@@ -479,6 +477,9 @@ If you buy nachoes at the movies, you won't need popcorn.
     q \rightarrow r
   \therefore p \rightarrow r     
 ** Example
+   
+   
 
 ** Non-Trivial Test Question
-
+   
+   
