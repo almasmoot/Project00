@@ -8,9 +8,9 @@ Alma Smoot ............Time: about 4 hours
 
 Austin Burke ..........Time: 4 ish hours so far
 
-Max Bakes              Time: 4 
+Max Bakes              Time: 5 
 
-TOTAL MANHOURS.............: 20.5 hrs
+TOTAL MANHOURS.............: 21.5 hrs
 
 Project 00
 Due Monday: 6pm, email me your public GitHub repo and include all the names of the contributers.
