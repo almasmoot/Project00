@@ -5,13 +5,13 @@ Darren Kersey .........Time: about 4.5 hrs
 
 Steven Stolp ..........Time: about 4 hrs
 
-Alma Smoot ............Time: about 6 hours
+Alma Smoot ............Time: about 7 hours
 
 Austin Burke ..........Time: 11 hours
 
 Max Bakes              Time: 5 
 
-TOTAL MANHOURS.............: 29.5 hrs
+TOTAL MANHOURS.............: 31.5 hrs
 
 Project 00
 Due Monday: 6pm, email me your public GitHub repo and include all the names of the contributers.
@@ -58,3 +58,10 @@ In the project I did some work on the extra credit problems, the BEAST 2.0 withi
 other sections of the special project exercises, and a lot of work on the key terms, providing definitions,t
 identifications, and examples, as well as some test questions. The key terms section was my favorite part of 
 the project as I feel it taught me a lot about the important basic knowledge required for sets and logic.
+
+Alma Smoot Project Summary: 
+I looked over and tried to do some fixes with the exercises. I found out that tables don't play nice
+with trailing or leading whitespace. I did a lot of work on key terms and making things look nice on github.
+I have taken a look at a lot of the elisp code done and made sure that I understood what it did with PVP.
+I thouroughly enjoyed the definitions, especially the symbols as they are now being used in my differential
+equations class.
