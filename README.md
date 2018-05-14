@@ -6,7 +6,7 @@ Steven Stolp ..........Time:
 
 Alma Smoot ............Time: ≈ 4 hours
 
-Austin Burke ..........Time:
+Austin Burke ..........Time: 4 ish hours so far
 
 
 TOTAL MANHOURS.............:
