@@ -146,31 +146,32 @@ with all of its temptations made Joseph's riteousness and perseverance all the b
 
 * Quantifier
 ** Define
-The logical symbol which makes an assertion about a set. (Such as the Universal 
-quantifier and the Existential quantifier.)
+   The logical symbol which makes an assertion about a set.
 ** Example
-   
+   Two examples of Quantifiers are the Universal Quantifier and the Existential Quantifier.
 ** Non-Trivial Test Question
 
 * Antecedent
 ** Define
   The first half of a hypothetical proposition, whenever the if-clause comes before the then-clause.
 ** Example
-
+   In the statement: "If it is raining, then I will need an umbrella." "If it is raining" is the atecedent.
+   In logical notation, this is often referred to as p; as used in the p->q statement, which means if p then q.
 ** Non-Trivial Test Question
 
 * Consequent
 ** Define
   The second half of a proposition, whenever it's the then-clause.
 ** Example
-
+   In the statement: "If it is raining, then I will need an umbrella." "I will need an umbrella" is the consequent.
+   In logical notation, this is often referred to as q; as used in the p->q statement, which means if p then q.
 ** Non-Trivial Test Question
 
 * Set
 ** Define
   A collection of objects in which objects are seperate entities.
 ** Example
-
+   The collection of all of the members of the disscrete math class is a set, with each object (student) being a separate entity.
 ** Non-Trivial Test Question
 
 * Fallacy
