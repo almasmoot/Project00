@@ -97,3 +97,15 @@
    This is the point of the problem, it is, as mentioned in the Paul Zeitz synopsis, not
    something that we are used to doing, but needs perseverence to provide an answer. 
    Solving problems doesn't just prove that we know soemthing, it teaches us at the same time.
+   
+   ** Alma Smoot:
+   My understanding on the differences between problems and exercises based on this text comes
+   down to prior knowledge. An exercise is something where you have had the concept taught to
+   you before and it becomes practice in order to solidify a concept. A problem is where you
+   don't know initially how to approach the situation. the approach for each is different as
+   well. with exercises, you typically want to see how much you can remember and complete
+   without searching for external help. With problems, the best approach is to think and 
+   discuss with others and look for different angles at which to examine, then determine a
+   course of action, then reevaluate the approach. the cycle continues until the problem is 
+   solved. Using the approach of problems is like teaching a hungry man to fish, instead of
+   just providing him a fish to eat.
