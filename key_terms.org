@@ -412,10 +412,12 @@ separate applications of those connectives across subformulas of the given formu
 
 * Idempotent Laws
 ** Define
-   Anding a variable with 1 OR oring it with 0 will make the one, or 0, insignificant and reduces down to the other variable.
+   The idempotent laws refer to idempotent (or redundant) statements. Where ANDing and ORing
+   a logical statement with itself returns a result that is identical/equivalent to the 
+   original statement.
+   p ∧ p ≡ p 
+   p ∨ p ≡ p
 ** Example
-   p \land 1 \equiv p
-   p \lor 0 \equiv p
 ** Non-Trivial Test Question
 
 * Universal Bound Laws
@@ -429,16 +431,18 @@ separate applications of those connectives across subformulas of the given formu
 
 * De Morgan's Laws
 ** Define
-  A set of transformation rules that apply to boolean logic.
+   A set of transformation rules that apply to boolean logic.
 ** Example
-
+   ¬(p ∧ q) ≡ ¬p ∨ ¬q
+   ¬(p ∨ q) ≡ ¬p ∧ ¬q
 ** Non-Trivial Test Question
 
 * Absorption Laws
 ** Define
-  When a variable in a proposition becomes irrevelent. 
+   The absorption laws show the base cases when a variable in a proposition becomes irrevelent 
 ** Example
-The set of the union of any set with the universal set is the universal set.  
+   p ∨ (p ∧ q) ≡ p
+   p ∧ (p ∨ q) ≡ p     
 ** Non-Trivial Test Question
 
 * Negations of t and c
@@ -453,25 +457,34 @@ The set of the union of any set with the universal set is the universal set.
   A statement that asserts that all members in the empty set have a certain
   property. 
 ** Example
-
+   If our set is an empty apple box, it can truthfully be said that all of the apples in the
+   box are green. 
 ** Non-Trivial Test Question
 
 * Modus Ponens
 ** Define
-  A Latin term for "mode that affirms by affirming".
-  In terms of logic; p \rightarrow q , p is t \rightarrow q
+   A Latin term for "mode that affirms by affirming".
+   In terms of logic: 
+   p \rightarrow q 
+   p 
+   ∴ q
 ** Example
-If today is Thursday, the best students will attend discrete mathmatics.
-Today is Thursday! Thus, the best students will attend discrete mathmatics.
+   If today is Thursday, the best students will attend discrete mathmatics.
+   Today is Thursday!
+   Therefore, the best students will attend discrete mathmatics.
 ** Non-Trivial Test Question
 
 * Modus Tollens
 ** Define
   A Latin term for "mode that denies by denying".
-  In terms of logic; p \rightarrow q , \neg q \rightarrow \neg p
+  In terms of logic: 
+  p \rightarrow q  
+  \neg q
+  ∴ \neg p
 ** Example
-If you buy nachoes at the movies, you won't need popcorn.
-      You needed popcorn, so you didn't buy the nachoes.
+   If you buy nachos at the movies, you won't need popcorn.
+   You needed popcorn 
+   Therefore: You didn't buy the nachos.
 ** Non-Trivial Test Question
 
 * Elimination: valid argument form
